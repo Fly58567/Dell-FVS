@@ -1,0 +1,2582 @@
+[2018/04/24 14:18:30] Single Thunder Planar MAC List!! (D0946658A170;D0946658A171;D0946658A172;D0946658A173;D0946658A174;D0946658A175;D0946658A176;D0946658A177)
+[2018/04/24 14:18:30] Test Start...
+[2018/04/24 14:18:30] Test Item: Check BMC MAC (Check_BMC_MAC)
+[2018/04/24 14:18:30] Input iDRAC Command: ifconfig eth0
+
+[2018/04/24 14:18:32] ret[0] ifconfig eth0
+[2018/04/24 14:18:32] ret[1] eth0      Link encap:Ethernet  HWaddr D0:94:66:58:A1:70
+[2018/04/24 14:18:32] ret[2] UP BROADCAST SLAVE MULTICAST  MTU:1500  Metric:1
+[2018/04/24 14:18:32] ret[3] RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+[2018/04/24 14:18:32] ret[4] TX packets:11 errors:0 dropped:0 overruns:0 carrier:0
+[2018/04/24 14:18:32] ret[5] collisions:0 txqueuelen:1000
+[2018/04/24 14:18:32] ret[6] RX bytes:0 (0.0 B)  TX bytes:2208 (2.1 KiB)
+[2018/04/24 14:18:32] ret[7] Interrupt:4 Base address:0xc000
+[2018/04/24 14:18:32] ret[8] 
+[2018/04/24 14:18:32] ret[9] /home/root#
+[2018/04/24 14:18:32] ret[10] /home/root#
+[2018/04/24 14:18:32] eth0 addr Pass
+[2018/04/24 14:18:32] Check_BMC_MAC Pass
+[2018/04/24 14:18:33] Test Item: Check Ethernet MAC (Check_Ethernet_MAC)
+[2018/04/24 14:18:33] Input OS Command: ipconfig -all
+[2018/04/24 14:18:35] ret[00] 
+[2018/04/24 14:18:35] ret[01] Windows IP Configuration
+[2018/04/24 14:18:35] ret[02] 
+[2018/04/24 14:18:35] ret[03] Host Name . . . . . . . . . . . . : WIN-3T5I98D9FQE
+[2018/04/24 14:18:35] ret[04] Primary Dns Suffix  . . . . . . . :
+[2018/04/24 14:18:35] ret[05] Node Type . . . . . . . . . . . . : Hybrid
+[2018/04/24 14:18:35] ret[06] IP Routing Enabled. . . . . . . . : No
+[2018/04/24 14:18:35] ret[07] WINS Proxy Enabled. . . . . . . . : No
+[2018/04/24 14:18:35] ret[08] 
+[2018/04/24 14:18:35] ret[09] Ethernet adapter NIC# 4:
+[2018/04/24 14:18:35] ret[10] 
+[2018/04/24 14:18:35] ret[11] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:35] ret[12] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #14
+[2018/04/24 14:18:35] ret[13] Physical Address. . . . . . . . . : D0-94-66-58-A1-77
+[2018/04/24 14:18:35] ret[14] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:35] ret[15] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:35] ret[16] Link-local IPv6 Address . . . . . : fe80::e053:2d6b:545d:8c45%37(Preferred)
+[2018/04/24 14:18:35] ret[17] Autoconfiguration IPv4 Address. . : 169.254.140.69(Preferred)
+[2018/04/24 14:18:35] ret[18] Subnet Mask . . . . . . . . . . . : 255.255.0.0
+[2018/04/24 14:18:35] ret[19] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:35] ret[20] DHCPv6 IAID . . . . . . . . . . . : 634426470
+[2018/04/24 14:18:35] ret[21] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:35] ret[22] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:35] ret[23] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:35] ret[24] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:35] ret[25] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:35] ret[26] 
+[2018/04/24 14:18:35] ret[27] Ethernet adapter NIC# 3:
+[2018/04/24 14:18:35] ret[28] 
+[2018/04/24 14:18:35] ret[29] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:35] ret[30] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #13
+[2018/04/24 14:18:35] ret[31] Physical Address. . . . . . . . . : D0-94-66-58-A1-76
+[2018/04/24 14:18:35] ret[32] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:35] ret[33] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:35] ret[34] Link-local IPv6 Address . . . . . : fe80::164:733:f17:88f%36(Preferred)
+[2018/04/24 14:18:35] ret[35] Autoconfiguration IPv4 Address. . : 169.254.8.143(Preferred)
+[2018/04/24 14:18:35] ret[36] Subnet Mask . . . . . . . . . . . : 255.255.0.0
+[2018/04/24 14:18:35] ret[37] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:35] ret[38] DHCPv6 IAID . . . . . . . . . . . : 617649254
+[2018/04/24 14:18:35] ret[39] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:35] ret[40] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:35] ret[41] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:35] ret[42] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:35] ret[43] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:35] ret[44] 
+[2018/04/24 14:18:35] ret[45] Ethernet adapter SLOT # Port 2:
+[2018/04/24 14:18:35] ret[46] 
+[2018/04/24 14:18:35] ret[47] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:35] ret[48] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #11
+[2018/04/24 14:18:35] ret[49] Physical Address. . . . . . . . . : D0-94-66-13-35-54
+[2018/04/24 14:18:35] ret[50] DHCP Enabled. . . . . . . . . . . : Yes
+[2018/04/24 14:18:35] ret[51] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:35] ret[52] Link-local IPv6 Address . . . . . : fe80::71b8:da3c:133:c7ed%33(Preferred)
+[2018/04/24 14:18:35] ret[53] Autoconfiguration IPv4 Address. . : 169.254.199.237(Preferred)
+[2018/04/24 14:18:35] ret[54] Subnet Mask . . . . . . . . . . . : 255.255.0.0
+[2018/04/24 14:18:35] ret[55] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:35] ret[56] DHCPv6 IAID . . . . . . . . . . . : 768644198
+[2018/04/24 14:18:35] ret[57] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:35] ret[58] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:35] ret[59] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:35] ret[60] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:35] ret[61] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:35] ret[62] 
+[2018/04/24 14:18:35] ret[63] Ethernet adapter SLOT # Port 1:
+[2018/04/24 14:18:35] ret[64] 
+[2018/04/24 14:18:35] ret[65] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:35] ret[66] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #9
+[2018/04/24 14:18:35] ret[67] Physical Address. . . . . . . . . : D0-94-66-13-35-53
+[2018/04/24 14:18:35] ret[68] DHCP Enabled. . . . . . . . . . . : Yes
+[2018/04/24 14:18:35] ret[69] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:35] ret[70] Link-local IPv6 Address . . . . . : fe80::685c:4373:52c5:e643%31(Preferred)
+[2018/04/24 14:18:35] ret[71] Autoconfiguration IPv4 Address. . : 169.254.230.67(Preferred)
+[2018/04/24 14:18:35] ret[72] Subnet Mask . . . . . . . . . . . : 255.255.0.0
+[2018/04/24 14:18:35] ret[73] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:35] ret[74] DHCPv6 IAID . . . . . . . . . . . : 634426470
+[2018/04/24 14:18:35] ret[75] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:35] ret[76] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:35] ret[77] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:35] ret[78] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:35] ret[79] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:35] ret[80] 
+[2018/04/24 14:18:35] ret[81] Tunnel adapter isatap.{4354DF2D-83E7-44D1-9BD5-746CDC77C392}:
+[2018/04/24 14:18:35] ret[82] 
+[2018/04/24 14:18:35] ret[83] Media State . . . . . . . . . . . : Media disconnected
+[2018/04/24 14:18:35] ret[84] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:35] ret[85] Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+[2018/04/24 14:18:35] ret[86] Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+[2018/04/24 14:18:35] ret[87] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:35] ret[88] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:35] ret[89] 
+[2018/04/24 14:18:35] ret[90] Tunnel adapter isatap.{9099A876-D714-48A4-9D74-6A9F2E8CCA69}:
+[2018/04/24 14:18:35] ret[91] 
+[2018/04/24 14:18:35] ret[92] Media State . . . . . . . . . . . : Media disconnected
+[2018/04/24 14:18:35] ret[93] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:35] ret[94] Description . . . . . . . . . . . : Microsoft ISATAP Adapter #2
+[2018/04/24 14:18:35] ret[95] Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+[2018/04/24 14:18:35] ret[96] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:35] ret[97] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:35] ret[98] 
+[2018/04/24 14:18:35] ret[99] Tunnel adapter isatap.{1952A72D-0566-466D-9F37-773BB09F11AE}:
+[2018/04/24 14:18:35] ret[100] 
+[2018/04/24 14:18:35] ret[101] Media State . . . . . . . . . . . : Media disconnected
+[2018/04/24 14:18:35] ret[102] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:35] ret[103] Description . . . . . . . . . . . : Microsoft ISATAP Adapter #4
+[2018/04/24 14:18:35] ret[104] Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+[2018/04/24 14:18:35] ret[105] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:35] ret[106] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:35] ret[107] 
+[2018/04/24 14:18:35] ret[108] Tunnel adapter isatap.{BC871E8D-09F2-4025-9DF9-EA6EAC7D2B6A}:
+[2018/04/24 14:18:35] ret[109] 
+[2018/04/24 14:18:35] ret[110] Media State . . . . . . . . . . . : Media disconnected
+[2018/04/24 14:18:35] ret[111] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:35] ret[112] Description . . . . . . . . . . . : Microsoft ISATAP Adapter #5
+[2018/04/24 14:18:35] ret[113] Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+[2018/04/24 14:18:35] ret[114] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:35] ret[115] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:35] Check_Ethernet_MAC Pass
+[2018/04/24 14:18:36] Test Item: Check Ethernet Link (Check_Ethernet_Link)
+[2018/04/24 14:18:36] Input OS Command: ipconfig -all
+[2018/04/24 14:18:38] ret[00] 
+[2018/04/24 14:18:38] ret[01] Windows IP Configuration
+[2018/04/24 14:18:38] ret[02] 
+[2018/04/24 14:18:38] ret[03] Host Name . . . . . . . . . . . . : WIN-3T5I98D9FQE
+[2018/04/24 14:18:38] ret[04] Primary Dns Suffix  . . . . . . . :
+[2018/04/24 14:18:38] ret[05] Node Type . . . . . . . . . . . . : Hybrid
+[2018/04/24 14:18:38] ret[06] IP Routing Enabled. . . . . . . . : No
+[2018/04/24 14:18:38] ret[07] WINS Proxy Enabled. . . . . . . . : No
+[2018/04/24 14:18:38] ret[08] 
+[2018/04/24 14:18:38] ret[09] Ethernet adapter NIC# 4:
+[2018/04/24 14:18:38] ret[10] 
+[2018/04/24 14:18:38] ret[11] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:38] ret[12] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #14
+[2018/04/24 14:18:38] ret[13] Physical Address. . . . . . . . . : D0-94-66-58-A1-77
+[2018/04/24 14:18:38] ret[14] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:38] ret[15] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:38] ret[16] Link-local IPv6 Address . . . . . : fe80::e053:2d6b:545d:8c45%37(Preferred)
+[2018/04/24 14:18:38] ret[17] Autoconfiguration IPv4 Address. . : 169.254.140.69(Preferred)
+[2018/04/24 14:18:38] ret[18] Subnet Mask . . . . . . . . . . . : 255.255.0.0
+[2018/04/24 14:18:38] ret[19] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:38] ret[20] DHCPv6 IAID . . . . . . . . . . . : 634426470
+[2018/04/24 14:18:38] ret[21] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:38] ret[22] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:38] ret[23] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:38] ret[24] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:38] ret[25] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:38] ret[26] 
+[2018/04/24 14:18:38] ret[27] Ethernet adapter NIC# 3:
+[2018/04/24 14:18:38] ret[28] 
+[2018/04/24 14:18:38] ret[29] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:38] ret[30] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #13
+[2018/04/24 14:18:38] ret[31] Physical Address. . . . . . . . . : D0-94-66-58-A1-76
+[2018/04/24 14:18:38] ret[32] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:38] ret[33] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:38] ret[34] Link-local IPv6 Address . . . . . : fe80::164:733:f17:88f%36(Preferred)
+[2018/04/24 14:18:38] ret[35] Autoconfiguration IPv4 Address. . : 169.254.8.143(Preferred)
+[2018/04/24 14:18:38] ret[36] Subnet Mask . . . . . . . . . . . : 255.255.0.0
+[2018/04/24 14:18:38] ret[37] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:38] ret[38] DHCPv6 IAID . . . . . . . . . . . : 617649254
+[2018/04/24 14:18:38] ret[39] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:38] ret[40] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:38] ret[41] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:38] ret[42] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:38] ret[43] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:38] ret[44] 
+[2018/04/24 14:18:38] ret[45] Ethernet adapter SLOT # Port 2:
+[2018/04/24 14:18:38] ret[46] 
+[2018/04/24 14:18:38] ret[47] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:38] ret[48] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #11
+[2018/04/24 14:18:38] ret[49] Physical Address. . . . . . . . . : D0-94-66-13-35-54
+[2018/04/24 14:18:38] ret[50] DHCP Enabled. . . . . . . . . . . : Yes
+[2018/04/24 14:18:38] ret[51] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:38] ret[52] Link-local IPv6 Address . . . . . : fe80::71b8:da3c:133:c7ed%33(Preferred)
+[2018/04/24 14:18:38] ret[53] Autoconfiguration IPv4 Address. . : 169.254.199.237(Preferred)
+[2018/04/24 14:18:38] ret[54] Subnet Mask . . . . . . . . . . . : 255.255.0.0
+[2018/04/24 14:18:38] ret[55] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:38] ret[56] DHCPv6 IAID . . . . . . . . . . . : 768644198
+[2018/04/24 14:18:38] ret[57] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:38] ret[58] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:38] ret[59] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:38] ret[60] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:38] ret[61] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:38] ret[62] 
+[2018/04/24 14:18:38] ret[63] Ethernet adapter SLOT # Port 1:
+[2018/04/24 14:18:38] ret[64] 
+[2018/04/24 14:18:38] ret[65] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:38] ret[66] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #9
+[2018/04/24 14:18:38] ret[67] Physical Address. . . . . . . . . : D0-94-66-13-35-53
+[2018/04/24 14:18:38] ret[68] DHCP Enabled. . . . . . . . . . . : Yes
+[2018/04/24 14:18:38] ret[69] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:38] ret[70] Link-local IPv6 Address . . . . . : fe80::685c:4373:52c5:e643%31(Preferred)
+[2018/04/24 14:18:38] ret[71] Autoconfiguration IPv4 Address. . : 169.254.230.67(Preferred)
+[2018/04/24 14:18:38] ret[72] Subnet Mask . . . . . . . . . . . : 255.255.0.0
+[2018/04/24 14:18:38] ret[73] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:38] ret[74] DHCPv6 IAID . . . . . . . . . . . : 634426470
+[2018/04/24 14:18:38] ret[75] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:38] ret[76] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:38] ret[77] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:38] ret[78] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:38] ret[79] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:38] ret[80] 
+[2018/04/24 14:18:38] ret[81] Tunnel adapter isatap.{4354DF2D-83E7-44D1-9BD5-746CDC77C392}:
+[2018/04/24 14:18:38] ret[82] 
+[2018/04/24 14:18:38] ret[83] Media State . . . . . . . . . . . : Media disconnected
+[2018/04/24 14:18:38] ret[84] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:38] ret[85] Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+[2018/04/24 14:18:38] ret[86] Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+[2018/04/24 14:18:38] ret[87] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:38] ret[88] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:38] ret[89] 
+[2018/04/24 14:18:38] ret[90] Tunnel adapter isatap.{9099A876-D714-48A4-9D74-6A9F2E8CCA69}:
+[2018/04/24 14:18:38] ret[91] 
+[2018/04/24 14:18:38] ret[92] Media State . . . . . . . . . . . : Media disconnected
+[2018/04/24 14:18:38] ret[93] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:38] ret[94] Description . . . . . . . . . . . : Microsoft ISATAP Adapter #2
+[2018/04/24 14:18:38] ret[95] Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+[2018/04/24 14:18:38] ret[96] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:38] ret[97] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:38] ret[98] 
+[2018/04/24 14:18:38] ret[99] Tunnel adapter isatap.{1952A72D-0566-466D-9F37-773BB09F11AE}:
+[2018/04/24 14:18:38] ret[100] 
+[2018/04/24 14:18:38] ret[101] Media State . . . . . . . . . . . : Media disconnected
+[2018/04/24 14:18:38] ret[102] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:38] ret[103] Description . . . . . . . . . . . : Microsoft ISATAP Adapter #4
+[2018/04/24 14:18:38] ret[104] Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+[2018/04/24 14:18:38] ret[105] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:38] ret[106] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:38] ret[107] 
+[2018/04/24 14:18:38] ret[108] Tunnel adapter isatap.{BC871E8D-09F2-4025-9DF9-EA6EAC7D2B6A}:
+[2018/04/24 14:18:38] ret[109] 
+[2018/04/24 14:18:38] ret[110] Media State . . . . . . . . . . . : Media disconnected
+[2018/04/24 14:18:38] ret[111] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:38] ret[112] Description . . . . . . . . . . . : Microsoft ISATAP Adapter #5
+[2018/04/24 14:18:38] ret[113] Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+[2018/04/24 14:18:38] ret[114] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:38] ret[115] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:38] Eth1 Name: NIC# 3 set IP - 192.168.0.1
+[2018/04/24 14:18:38] Input OS Command: netsh interface ip set address "NIC# 3" static 192.168.0.1 255.255.255.0
+[2018/04/24 14:18:40] ret[00] 
+[2018/04/24 14:18:40] Eth1 Name: NIC# 3 set IP - 192.168.0.1 Successfully
+[2018/04/24 14:18:40] Input OS Command: ipconfig -all
+[2018/04/24 14:18:42] ret[00] 
+[2018/04/24 14:18:42] ret[01] Windows IP Configuration
+[2018/04/24 14:18:42] ret[02] 
+[2018/04/24 14:18:42] ret[03] Host Name . . . . . . . . . . . . : WIN-3T5I98D9FQE
+[2018/04/24 14:18:42] ret[04] Primary Dns Suffix  . . . . . . . :
+[2018/04/24 14:18:42] ret[05] Node Type . . . . . . . . . . . . : Hybrid
+[2018/04/24 14:18:42] ret[06] IP Routing Enabled. . . . . . . . : No
+[2018/04/24 14:18:42] ret[07] WINS Proxy Enabled. . . . . . . . : No
+[2018/04/24 14:18:42] ret[08] 
+[2018/04/24 14:18:42] ret[09] Ethernet adapter NIC# 4:
+[2018/04/24 14:18:42] ret[10] 
+[2018/04/24 14:18:42] ret[11] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:42] ret[12] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #14
+[2018/04/24 14:18:42] ret[13] Physical Address. . . . . . . . . : D0-94-66-58-A1-77
+[2018/04/24 14:18:42] ret[14] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:42] ret[15] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:42] ret[16] Link-local IPv6 Address . . . . . : fe80::e053:2d6b:545d:8c45%37(Preferred)
+[2018/04/24 14:18:42] ret[17] Autoconfiguration IPv4 Address. . : 169.254.140.69(Preferred)
+[2018/04/24 14:18:42] ret[18] Subnet Mask . . . . . . . . . . . : 255.255.0.0
+[2018/04/24 14:18:42] ret[19] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:42] ret[20] DHCPv6 IAID . . . . . . . . . . . : 634426470
+[2018/04/24 14:18:42] ret[21] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:42] ret[22] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:42] ret[23] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:42] ret[24] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:42] ret[25] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:42] ret[26] 
+[2018/04/24 14:18:42] ret[27] Ethernet adapter NIC# 3:
+[2018/04/24 14:18:42] ret[28] 
+[2018/04/24 14:18:42] ret[29] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:42] ret[30] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #13
+[2018/04/24 14:18:42] ret[31] Physical Address. . . . . . . . . : D0-94-66-58-A1-76
+[2018/04/24 14:18:42] ret[32] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:42] ret[33] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:42] ret[34] Link-local IPv6 Address . . . . . : fe80::164:733:f17:88f%36(Preferred)
+[2018/04/24 14:18:42] ret[35] IPv4 Address. . . . . . . . . . . : 192.168.0.1(Tentative)
+[2018/04/24 14:18:42] ret[36] Subnet Mask . . . . . . . . . . . : 255.255.255.0
+[2018/04/24 14:18:42] ret[37] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:42] ret[38] DHCPv6 IAID . . . . . . . . . . . : 617649254
+[2018/04/24 14:18:42] ret[39] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:42] ret[40] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:42] ret[41] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:42] ret[42] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:42] ret[43] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:42] ret[44] 
+[2018/04/24 14:18:42] ret[45] Ethernet adapter SLOT # Port 2:
+[2018/04/24 14:18:42] ret[46] 
+[2018/04/24 14:18:42] ret[47] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:42] ret[48] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #11
+[2018/04/24 14:18:42] ret[49] Physical Address. . . . . . . . . : D0-94-66-13-35-54
+[2018/04/24 14:18:42] ret[50] DHCP Enabled. . . . . . . . . . . : Yes
+[2018/04/24 14:18:42] ret[51] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:42] ret[52] Link-local IPv6 Address . . . . . : fe80::71b8:da3c:133:c7ed%33(Preferred)
+[2018/04/24 14:18:42] ret[53] Autoconfiguration IPv4 Address. . : 169.254.199.237(Preferred)
+[2018/04/24 14:18:42] ret[54] Subnet Mask . . . . . . . . . . . : 255.255.0.0
+[2018/04/24 14:18:42] ret[55] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:42] ret[56] DHCPv6 IAID . . . . . . . . . . . : 768644198
+[2018/04/24 14:18:42] ret[57] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:42] ret[58] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:42] ret[59] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:42] ret[60] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:42] ret[61] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:42] ret[62] 
+[2018/04/24 14:18:42] ret[63] Ethernet adapter SLOT # Port 1:
+[2018/04/24 14:18:42] ret[64] 
+[2018/04/24 14:18:42] ret[65] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:42] ret[66] Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #9
+[2018/04/24 14:18:42] ret[67] Physical Address. . . . . . . . . : D0-94-66-13-35-53
+[2018/04/24 14:18:42] ret[68] DHCP Enabled. . . . . . . . . . . : Yes
+[2018/04/24 14:18:42] ret[69] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:42] ret[70] Link-local IPv6 Address . . . . . : fe80::685c:4373:52c5:e643%31(Preferred)
+[2018/04/24 14:18:42] ret[71] Autoconfiguration IPv4 Address. . : 169.254.230.67(Preferred)
+[2018/04/24 14:18:42] ret[72] Subnet Mask . . . . . . . . . . . : 255.255.0.0
+[2018/04/24 14:18:42] ret[73] Default Gateway . . . . . . . . . :
+[2018/04/24 14:18:42] ret[74] DHCPv6 IAID . . . . . . . . . . . : 634426470
+[2018/04/24 14:18:42] ret[75] DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-21-35-8F-CC-00-00-00-00-00-00
+[2018/04/24 14:18:42] ret[76] DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+[2018/04/24 14:18:42] ret[77] fec0:0:0:ffff::2%1
+[2018/04/24 14:18:42] ret[78] fec0:0:0:ffff::3%1
+[2018/04/24 14:18:42] ret[79] NetBIOS over Tcpip. . . . . . . . : Enabled
+[2018/04/24 14:18:42] ret[80] 
+[2018/04/24 14:18:42] ret[81] Tunnel adapter isatap.{4354DF2D-83E7-44D1-9BD5-746CDC77C392}:
+[2018/04/24 14:18:42] ret[82] 
+[2018/04/24 14:18:42] ret[83] Media State . . . . . . . . . . . : Media disconnected
+[2018/04/24 14:18:42] ret[84] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:42] ret[85] Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+[2018/04/24 14:18:42] ret[86] Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+[2018/04/24 14:18:42] ret[87] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:42] ret[88] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:42] ret[89] 
+[2018/04/24 14:18:42] ret[90] Tunnel adapter isatap.{9099A876-D714-48A4-9D74-6A9F2E8CCA69}:
+[2018/04/24 14:18:42] ret[91] 
+[2018/04/24 14:18:42] ret[92] Media State . . . . . . . . . . . : Media disconnected
+[2018/04/24 14:18:42] ret[93] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:42] ret[94] Description . . . . . . . . . . . : Microsoft ISATAP Adapter #2
+[2018/04/24 14:18:42] ret[95] Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+[2018/04/24 14:18:42] ret[96] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:42] ret[97] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:42] ret[98] 
+[2018/04/24 14:18:42] ret[99] Tunnel adapter isatap.{1952A72D-0566-466D-9F37-773BB09F11AE}:
+[2018/04/24 14:18:42] ret[100] 
+[2018/04/24 14:18:42] ret[101] Media State . . . . . . . . . . . : Media disconnected
+[2018/04/24 14:18:42] ret[102] Connection-specific DNS Suffix  . :
+[2018/04/24 14:18:42] ret[103] Description . . . . . . . . . . . : Microsoft ISATAP Adapter #4
+[2018/04/24 14:18:42] ret[104] Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+[2018/04/24 14:18:42] ret[105] DHCP Enabled. . . . . . . . . . . : No
+[2018/04/24 14:18:42] ret[106] Autoconfiguration Enabled . . . . : Yes
+[2018/04/24 14:18:42] Eth2 Name: NIC# 4 set IP - 192.168.0.2
+[2018/04/24 14:18:42] Input OS Command: netsh interface ip set address "NIC# 4" static 192.168.0.2 255.255.255.0
+[2018/04/24 14:18:44] ret[00] 
+[2018/04/24 14:18:44] Eth2 Name: NIC# 4 set IP - 192.168.0.2 Successfully
+[2018/04/24 14:18:49] Input OS Command: ping -S 192.168.0.1 192.168.0.2
+[2018/04/24 14:18:54] ret[00] 
+[2018/04/24 14:18:54] ret[01] Pinging 192.168.0.2 from 192.168.0.1 with 32 bytes of data:
+[2018/04/24 14:18:54] ret[02] Reply from 192.168.0.2: bytes=32 time<1ms TTL=128
+[2018/04/24 14:18:54] ret[03] Reply from 192.168.0.2: bytes=32 time<1ms TTL=128
+[2018/04/24 14:18:54] ret[04] Reply from 192.168.0.2: bytes=32 time<1ms TTL=128
+[2018/04/24 14:18:54] ret[05] Reply from 192.168.0.2: bytes=32 time<1ms TTL=128
+[2018/04/24 14:18:54] ret[06] 
+[2018/04/24 14:18:54] ret[07] Ping statistics for 192.168.0.2:
+[2018/04/24 14:18:54] ret[08] Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+[2018/04/24 14:18:54] ret[09] Approximate round trip times in milli-seconds:
+[2018/04/24 14:18:54] ret[10] Minimum = 0ms, Maximum = 0ms, Average = 0ms
+[2018/04/24 14:18:54] Input OS Command: netsh interface ip delete address "NIC# 3" addr=192.168.0.1
+[2018/04/24 14:18:57] ret[00] 
+[2018/04/24 14:18:57] Input OS Command: netsh interface ip delete address "NIC# 4" addr=192.168.0.2
+[2018/04/24 14:18:59] ret[00] 
+[2018/04/24 14:18:59] Check_Ethernet_Link Pass
+[2018/04/24 14:19:00] Test Item: Check Intrusion Device (Check_Intrusion_Device)
+[2018/04/24 14:19:00] Input OS Command: ipmitool.exe -I wmi chassis status
+[2018/04/24 14:19:02] ret[00] System Power         : on
+[2018/04/24 14:19:02] ret[01] Power Overload       : false
+[2018/04/24 14:19:02] ret[02] Power Interlock      : inactive
+[2018/04/24 14:19:02] ret[03] Main Power Fault     : false
+[2018/04/24 14:19:02] ret[04] Power Control Fault  : false
+[2018/04/24 14:19:02] ret[05] Power Restore Policy : previous
+[2018/04/24 14:19:02] ret[06] Last Power Event     :
+[2018/04/24 14:19:02] ret[07] Chassis Intrusion    : active
+[2018/04/24 14:19:02] ret[08] Front-Panel Lockout  : inactive
+[2018/04/24 14:19:02] ret[09] Drive Fault          : false
+[2018/04/24 14:19:02] ret[10] Cooling/Fan Fault    : false
+[2018/04/24 14:19:02] ret[11] Sleep Button Disable : not allowed
+[2018/04/24 14:19:02] ret[12] Diag Button Disable  : not allowed
+[2018/04/24 14:19:02] ret[13] Reset Button Disable : not allowed
+[2018/04/24 14:19:02] ret[14] Power Button Disable : allowed
+[2018/04/24 14:19:02] ret[15] Sleep Button Disabled: false
+[2018/04/24 14:19:02] ret[16] Diag Button Disabled : false
+[2018/04/24 14:19:02] ret[17] Reset Button Disabled: false
+[2018/04/24 14:19:02] ret[18] Power Button Disabled: false
+[2018/04/24 14:19:02] Check_Intrusion_Device Pass
+[2018/04/24 14:19:03] Test Item: Check_Fan_Device (Check_Fan_Device)
+[2018/04/24 14:19:03] Input OS Command: ipmitool.exe -I wmi sensor
+[2018/04/24 14:19:10] ret[00] Temp             | 29.000     | degrees C  | ok    | na        | 3.000     | na        | na        | 96.000    | na
+[2018/04/24 14:19:10] ret[01] Temp             | na         | degrees C  | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[02] Inlet Temp       | 24.000     | degrees C  | ok    | na        | -7.000    | 3.000     | 38.000    | 42.000    | na
+[2018/04/24 14:19:10] ret[03] DIMM PG          | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[04] PS1 PG FAIL      | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[05] PS2 PG FAIL      | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[06] BP1 PG           | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[07] BP2 PG           | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[08] 1.8V SW PG       | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[09] 2.5V SW PG       | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[10] 5V SW PG         | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[11] PVNN SW PG       | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[12] VSB11 SW PG      | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[13] VSBM SW PG       | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[14] 3.3V B PG        | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[15] MEM012 VDDQ PG   | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[16] MEM012 VPP PG    | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[17] MEM012 VTT PG    | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[18] MEM345 VDDQ PG   | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[19] MEM345 VPP PG    | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[20] MEM345 VTT PG    | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[21] VCCIO PG         | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[22] VCORE PG         | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[23] FIVR PG          | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[24] MEM012 VDDQ PG   | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[25] MEM012 VPP PG    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[26] MEM012 VTT PG    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[27] MEM345 VDDQ PG   | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[28] MEM345 VPP PG    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[29] MEM345 VTT PG    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[30] VCCIO PG         | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[31] VCORE PG         | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[32] FIVR PG          | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[33] Fan1A            | 10200.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[34] Fan1B            | 12720.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[35] Fan2A            | 10200.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[36] Fan2B            | 12840.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[37] Fan3A            | 10200.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[38] Fan3B            | 12840.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[39] Presence         | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[40] Presence         | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[41] Presence         | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[42] Intrusion Cable  | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[43] VGA Cable Pres   | 0x0        | discrete   | 0x0280| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[44] Presence         | 0x0        | discrete   | 0x0280| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[45] Presence         | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[46] Power A Cable    | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[47] Signal Cable     | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[48] Power A1 Cable   | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[49] Presence         | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[50] Presence         | 0x0        | discrete   | 0x0280| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[51] Current 1        | 0.800      | Amps       | ok    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[52] Current 2        | na         | Amps       | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[53] Voltage 1        | 218.000    | Volts      | ok    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[54] Voltage 2        | na         | Volts      | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[55] Riser Config Err | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[56] OS Watchdog      | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[57] SEL              | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[58] Intrusion        | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[59] Power Optimized  | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[60] Pwr Consumption  | 176.000    | Watts      | ok    | na        | na        | na        | 594.000   | 638.000   | na
+[2018/04/24 14:19:10] ret[61] Fan Redundancy   | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[62] Redundancy       | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[63] SD1              | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[64] SD2              | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[65] SD               | 0x0        | discrete   | 0x2180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[66] IO Usage         | 0.000      | unspecified | ok    | na        | na        | na        | 101.000   | na        | na
+[2018/04/24 14:19:10] ret[67] MEM Usage        | 0.000      | unspecified | ok    | na        | na        | na        | 101.000   | na        | na
+[2018/04/24 14:19:10] ret[68] SYS Usage        | 0.000      | unspecified | ok    | na        | na        | na        | 101.000   | na        | na
+[2018/04/24 14:19:10] ret[69] CPU Usage        | 0.000      | unspecified | ok    | na        | na        | na        | 101.000   | na        | na
+[2018/04/24 14:19:10] ret[70] Status           | 0x0        | discrete   | 0x8080| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[71] Status           | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[72] Status           | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[73] Status           | 0x0        | discrete   | 0x0980| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[74] CMOS Battery     | 0x0        | discrete   | 0x0480| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[75] ROMB Battery     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[76] PCIe Slot1       | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[77] PCIe Slot2       | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[78] PCIe Slot3       | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[79] PCIe Slot4       | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[80] PCIe Slot5       | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[81] Cable PCIe A0    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[82] Cable PCIe B0    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[83] Cable PCIe A1    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[84] Cable PCIe B1    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[85] Cable PCIe A2    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[86] Cable PCIe B2    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[87] Cable SAS A0     | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[88] Cable SAS B0     | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[89] Cable SAS A1     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[90] Cable SAS B1     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[91] Cable SAS A2     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[92] Cable SAS B2     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[93] A                | 0x0        | discrete   | 0x4080| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[94] B                | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[95] ECC Corr Err     | 0x9f       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[96] ECC Uncorr Err   | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[97] PCI Parity Err   | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[98] PCI System Err   | 0x98       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[99] SBE Log Disabled | 0xa1       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[100] Unknown          | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[101] CPU Protocol Err | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[102] CPU Machine Chk  | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[103] Memory Spared    | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[104] Memory Mirrored  | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[105] PCIE Fatal Err   | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[106] Chipset Err      | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[107] Err Reg Pointer  | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[108] Mem ECC Warning  | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[109] USB Over-current | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[110] POST Err         | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[111] Hdwr version err | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[112] Non Fatal PCI Er | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[113] Fatal IO Error   | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[114] MSR Info Log     | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[115] TXT Status       | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[116] iDPT Mem Fail    | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[117] Additional Info  | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[118] CPU TDP          | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[119] QPIRC Warning    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[120] QPIRC Warning    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[121] Link Warning     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[122] Link Warning     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[123] Link Error       | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[124] MRC Warning      | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[125] MRC Warning      | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[126] Chassis Mismatch | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[127] FatalPCIErrOnBus | 0x55       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[128] NonFatalPCIErBus | 0x6a       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[129] Fatal PCI SSD Er | 0x55       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[130] NonFatalSSDEr    | 0x6b       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[131] CPUMachineCheck  | 0x55       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[132] FatalPCIErARI    | 0x6b       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[133] NonFatalPCIErARI | 0x56       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[134] FatalPCIExpEr    | 0x6b       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[135] NonFatalPCIExpEr | 0x5e       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[136] CP Left Pres     | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[137] CP Right Pres    | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[138] CPU Link Info    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[139] Chipset Info     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[140] Memory Config    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[141] QPI Link Err     | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[142] LT/Flex Addr     | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[143] OS Watchdog Time | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[144] TPM Presence     | 0x63       | discrete   | 0xc000| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[145] VSA PG           | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[146] VSA PG           | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[147] TPM Presence     | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[148] Dedicated NIC    | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[149] Pfault Fail Safe | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[150] Unresp sensor    | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[151] Presence         | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[152] Riser 3 Presence | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[153] Riser 2 Presence | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[154] Riser 1 Presence | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[155] 5V PG            | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[156] Fan4A            | 10440.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[157] Fan4B            | 12840.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[158] Fan5A            | 11520.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[159] Fan5B            | 11880.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[160] Fan6A            | na         | RPM        | na    | na        | 600.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[161] Fan6B            | na         | RPM        | na    | na        | 600.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] ret[162] Fan1A Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[163] Fan1B Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[164] Fan2A Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[165] Fan2B Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[166] Fan3A Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[167] Fan3B Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[168] Fan4A Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[169] Fan4B Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[170] Fan5A Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[171] Fan5B Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[172] Fan6A Status     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[173] Fan6B Status     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[174] Exhaust Temp     | 33.000     | degrees C  | ok    | na        | 3.000     | 8.000     | 75.000    | 80.000    | na
+[2018/04/24 14:19:10] ret[175] NVDIMM Battery   | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[176] Status           | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[177] PS Redundancy    | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[178] ROMB Battery     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[179] NVDIMM Error     | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[180] NVDIMM Info      | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[181] NVDIMM Warning   | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[182] Front LED Panel  | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[183] PCIe Slot6       | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[184] POST Pkg Repair  | na         | discrete   | na    | na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] ret[185] Drive 0          | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] Fan1A            | 10200.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] Fan1B            | 12720.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] Fan2A            | 10200.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] Fan2B            | 12840.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] Fan3A            | 10200.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] Fan3B            | 12840.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] Fan4A            | 10440.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] Fan4B            | 12840.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] Fan5A            | 11520.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] Fan5B            | 11880.000  | RPM        | ok    | na        | 480.000   | 840.000   | na        | na        | na
+[2018/04/24 14:19:10] Fan1A Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] Fan1B Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] Fan2A Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] Fan2B Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] Fan3A Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] Fan3B Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] Fan4A Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] Fan4B Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] Fan5A Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] Fan5B Status     | 0x0        | discrete   | 0x0580| na        | na        | na        | na        | na        | na
+[2018/04/24 14:19:10] Check_Fan_Device PASS
+[2018/04/24 14:19:11] Test Item: Check Firmware Version (BIOS/CPLD/BMC) (Check_FW_Version)
+[2018/04/24 14:19:11] Input OS Command: C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe "Get-WmiObject Win32_BIOS | format-list"
+[2018/04/24 14:19:13] ret[00] 
+[2018/04/24 14:19:13] ret[01] 
+[2018/04/24 14:19:13] ret[02] SMBIOSBIOSVersion : 99.0.1 [[FXN]Bring Up BIOS.]
+[2018/04/24 14:19:13] ret[03] Manufacturer      : Dell Inc.
+[2018/04/24 14:19:13] ret[04] Name              : 99.0.1 [[FXN]Bring Up BIOS.]
+[2018/04/24 14:19:13] ret[05] SerialNumber      :
+[2018/04/24 14:19:13] ret[06] Version           : DELL   - 0
+[2018/04/24 14:19:13] ret[07] 
+[2018/04/24 14:19:13] ret[08] 
+[2018/04/24 14:19:13] ret[09] 
+[2018/04/24 14:19:13] Input OS Command: ipmitool.exe -I wmi raw 0x30 0x33
+[2018/04/24 14:19:15] ret[00] 00 01 00
+[2018/04/24 14:19:15] Input OS Command: ipmitool.exe -I wmi raw 0x30 0xBF 0x01
+[2018/04/24 14:19:18] ret[00] 03 0a 00 1d 00 0a
+[2018/04/24 14:19:18] BIOS Version: 99.0.1
+[2018/04/24 14:19:18] CPLD Version: 0.1.0
+[2018/04/24 14:19:18] BMC  Version: 3.10.29
+[2018/04/24 14:19:18] Check_FW_Version Pass
+[2018/04/24 14:19:19] Test Item: Check SMBIOS Information (Type 0/1/2/3) (Check_SMBIOS_Info)
+[2018/04/24 14:19:19] Input OS Command: C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe "Get-WmiObject Win32_BIOS | format-list"
+[2018/04/24 14:19:21] ret[00] 
+[2018/04/24 14:19:21] ret[01] 
+[2018/04/24 14:19:21] ret[02] SMBIOSBIOSVersion : 99.0.1 [[FXN]Bring Up BIOS.]
+[2018/04/24 14:19:21] ret[03] Manufacturer      : Dell Inc.
+[2018/04/24 14:19:21] ret[04] Name              : 99.0.1 [[FXN]Bring Up BIOS.]
+[2018/04/24 14:19:21] ret[05] SerialNumber      :
+[2018/04/24 14:19:21] ret[06] Version           : DELL   - 0
+[2018/04/24 14:19:21] ret[07] 
+[2018/04/24 14:19:21] ret[08] 
+[2018/04/24 14:19:21] ret[09] 
+[2018/04/24 14:19:21] Input OS Command: C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe "Get-WmiObject Win32_BaseBoard | format-list"
+[2018/04/24 14:19:23] ret[00] 
+[2018/04/24 14:19:23] ret[01] 
+[2018/04/24 14:19:23] ret[02] Manufacturer : Dell Inc.
+[2018/04/24 14:19:23] ret[03] Model        :
+[2018/04/24 14:19:23] ret[04] Name         : Base Board
+[2018/04/24 14:19:23] ret[05] SerialNumber : .       .CNFCP0084G000C.
+[2018/04/24 14:19:23] ret[06] SKU          :
+[2018/04/24 14:19:23] ret[07] Product      : 0SRT1S
+[2018/04/24 14:19:23] ret[08] 
+[2018/04/24 14:19:23] ret[09] 
+[2018/04/24 14:19:23] ret[10] 
+[2018/04/24 14:19:23] Input OS Command: C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe "Get-WmiObject Win32_ComputerSystem | format-list"
+[2018/04/24 14:19:26] ret[00] 
+[2018/04/24 14:19:26] ret[01] 
+[2018/04/24 14:19:26] ret[02] Domain              : WORKGROUP
+[2018/04/24 14:19:26] ret[03] Manufacturer        : Dell Inc.
+[2018/04/24 14:19:26] ret[04] Model               : PowerEdge SingleThunder
+[2018/04/24 14:19:26] ret[05] Name                : WIN-3T5I98D9FQE
+[2018/04/24 14:19:26] ret[06] PrimaryOwnerName    : Windows User
+[2018/04/24 14:19:26] ret[07] TotalPhysicalMemory : 50132873216
+[2018/04/24 14:19:26] ret[08] 
+[2018/04/24 14:19:26] ret[09] 
+[2018/04/24 14:19:26] ret[10] 
+[2018/04/24 14:19:26] Input OS Command: C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe "Get-WmiObject Win32_ComputerSystemProduct | format-list"
+[2018/04/24 14:19:28] ret[00] 
+[2018/04/24 14:19:28] ret[01] 
+[2018/04/24 14:19:28] ret[02] IdentifyingNumber :
+[2018/04/24 14:19:28] ret[03] Name              : PowerEdge SingleThunder
+[2018/04/24 14:19:28] ret[04] Vendor            : Dell Inc.
+[2018/04/24 14:19:28] ret[05] Version           :
+[2018/04/24 14:19:28] ret[06] Caption           : Computer System Product
+[2018/04/24 14:19:28] ret[07] 
+[2018/04/24 14:19:28] ret[08] 
+[2018/04/24 14:19:28] ret[09] 
+[2018/04/24 14:19:28] Check_SMBIOS_Info Pass
+[2018/04/24 14:19:29] Test Item: Program MB FRU via FRU_Tool.py (Program_MB_FRU)
+[2018/04/24 14:19:33] Program_MB_FRU Pass
+[2018/04/24 14:19:34] Test Item: Check CPU Information (Check_CPU_Info)
+[2018/04/24 14:19:34] Input OS Command: C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe "Get-WmiObject Win32_Processor | format-list"
+[2018/04/24 14:19:37] ret[00] 
+[2018/04/24 14:19:37] ret[01] 
+[2018/04/24 14:19:37] ret[02] Caption           : Intel64 Family 6 Model 85 Stepping 4
+[2018/04/24 14:19:37] ret[03] DeviceID          : CPU0
+[2018/04/24 14:19:37] ret[04] Manufacturer      : GenuineIntel
+[2018/04/24 14:19:37] ret[05] MaxClockSpeed     : 1995
+[2018/04/24 14:19:37] ret[06] Name              : Intel(R) Xeon(R) Platinum 8153 CPU @ 2.00GHz
+[2018/04/24 14:19:37] ret[07] SocketDesignation : CPU1
+[2018/04/24 14:19:37] ret[08] 
+[2018/04/24 14:19:37] ret[09] 
+[2018/04/24 14:19:37] ret[10] 
+[2018/04/24 14:19:37] Check_CPU_Info Pass
+[2018/04/24 14:19:38] Test Item: Check Cache Information (Check_Cache_Info)
+[2018/04/24 14:19:38] Input OS Command: C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe "Get-WmiObject Win32_CacheMemory | format-list"
+[2018/04/24 14:19:40] ret[00] 
+[2018/04/24 14:19:40] ret[01] 
+[2018/04/24 14:19:40] ret[02] BlockSize      : 1024
+[2018/04/24 14:19:40] ret[03] CacheSpeed     :
+[2018/04/24 14:19:40] ret[04] CacheType      : 5
+[2018/04/24 14:19:40] ret[05] DeviceID       : Cache Memory 0
+[2018/04/24 14:19:40] ret[06] InstalledSize  : 1024
+[2018/04/24 14:19:40] ret[07] Level          : 3
+[2018/04/24 14:19:40] ret[08] MaxCacheSize   : 1024
+[2018/04/24 14:19:40] ret[09] NumberOfBlocks : 1024
+[2018/04/24 14:19:40] ret[10] Status         : OK
+[2018/04/24 14:19:40] ret[11] 
+[2018/04/24 14:19:40] ret[12] BlockSize      : 1024
+[2018/04/24 14:19:40] ret[13] CacheSpeed     :
+[2018/04/24 14:19:40] ret[14] CacheType      : 5
+[2018/04/24 14:19:40] ret[15] DeviceID       : Cache Memory 1
+[2018/04/24 14:19:40] ret[16] InstalledSize  : 16384
+[2018/04/24 14:19:40] ret[17] Level          : 4
+[2018/04/24 14:19:40] ret[18] MaxCacheSize   : 16384
+[2018/04/24 14:19:40] ret[19] NumberOfBlocks : 16384
+[2018/04/24 14:19:40] ret[20] Status         : OK
+[2018/04/24 14:19:40] ret[21] 
+[2018/04/24 14:19:40] ret[22] BlockSize      : 1024
+[2018/04/24 14:19:40] ret[23] CacheSpeed     :
+[2018/04/24 14:19:40] ret[24] CacheType      : 5
+[2018/04/24 14:19:40] ret[25] DeviceID       : Cache Memory 2
+[2018/04/24 14:19:40] ret[26] InstalledSize  : 22528
+[2018/04/24 14:19:40] ret[27] Level          : 5
+[2018/04/24 14:19:40] ret[28] MaxCacheSize   : 22528
+[2018/04/24 14:19:40] ret[29] NumberOfBlocks : 22528
+[2018/04/24 14:19:40] ret[30] Status         : OK
+[2018/04/24 14:19:40] ret[31] 
+[2018/04/24 14:19:40] ret[32] 
+[2018/04/24 14:19:40] ret[33] 
+[2018/04/24 14:19:40] Check_Cache_Info Pass
+[2018/04/24 14:19:41] Test Item: DDIAGS_Memory_Test (DDIAGS_Memory_Test)
+[2018/04/24 14:19:41] Input OS Command: Memory.exe -f:21
+[2018/04/24 14:20:10] ret[00] Memory module x64 factory release 6085.5
+[2018/04/24 14:20:10] ret[01] TotalOSPhysMemory       = 50132873216
+[2018/04/24 14:20:10] ret[02] MemoryAvailable         = 48867823616
+[2018/04/24 14:20:10] ret[03] MemoryAllocated         = 48599388160
+[2018/04/24 14:20:10] ret[04] 
+[2018/04/24 14:20:10] ret[05] (Testing Memory Device)
+[2018/04/24 14:20:10] ret[06] Functional Test Block 21
+[2018/04/24 14:20:10] ret[07] (Memory Device Test Results)
+[2018/04/24 14:20:10] ret[08] Status: Pass
+[2018/04/24 14:20:10] DDIAGS_Memory_Test Pass
+[2018/04/24 14:20:11] Test Item: DDIAGS_PCIe_Test (DDIAGS_PCIe_Test)
+[2018/04/24 14:20:11] Input OS Command: PCIe.exe -util:1
+[2018/04/24 14:20:15] ret[00] PCIe module x64 factory release 6085.5
+[2018/04/24 14:20:15] ret[01] 
+[2018/04/24 14:20:15] ret[02] (Testing PCIe Bus)
+[2018/04/24 14:20:15] ret[03] Tag  Bus/De/Fu  Vend  Dev   SVID  SDID  Rev   Status
+[2018/04/24 14:20:15] ret[04] 0000 ( 0/ 0/0)  8086  2020  8086  0000  0004  Bus 00: Link Not Active
+[2018/04/24 14:20:15] ret[05] 0028 ( 0/ 5/0)  8086  2024  8086  0000  0004
+[2018/04/24 14:20:15] ret[06] 002A ( 0/ 5/2)  8086  2025  0000  0000  0004
+[2018/04/24 14:20:15] ret[07] 002C ( 0/ 5/4)  8086  2026  8086  2026  0004
+[2018/04/24 14:20:15] ret[08] 0040 ( 0/ 8/0)  8086  2014  8086  0000  0004
+[2018/04/24 14:20:15] ret[09] 0041 ( 0/ 8/1)  8086  2015  8086  0000  0004
+[2018/04/24 14:20:15] ret[10] 0042 ( 0/ 8/2)  8086  2016  8086  0000  0004
+[2018/04/24 14:20:15] ret[11] 0088 ( 0/17/0)  8086  A1EC  1028  07CC  0009
+[2018/04/24 14:20:15] ret[12] 008D ( 0/17/5)  8086  A1D2  1028  07CC  0009
+[2018/04/24 14:20:15] ret[13] 00A0 ( 0/20/0)  8086  A1AF  1028  07CC  0009
+[2018/04/24 14:20:15] ret[14] 00A2 ( 0/20/2)  8086  A1B1  1028  07CC  0009
+[2018/04/24 14:20:15] ret[15] 00B0 ( 0/22/0)  8086  A1BA  1028  07CC  0009
+[2018/04/24 14:20:15] ret[16] 00B1 ( 0/22/1)  8086  A1BB  1028  07CC  0009
+[2018/04/24 14:20:15] ret[17] 00B4 ( 0/22/4)  8086  A1BE  1028  07CC  0009
+[2018/04/24 14:20:15] ret[18] 00B8 ( 0/23/0)  8086  A182  1028  07CC  0009
+[2018/04/24 14:20:15] ret[19] 00E0 ( 0/28/0)  8086  A190  1028  07CC  0009  Bus 01: Link Not Active
+[2018/04/24 14:20:15] ret[20] 00E4 ( 0/28/4)  8086  A194  1028  07CC  0009  Bus 02: Link Trained x1, Speed Max 5.0 GT/s, Neg 5.0 GT/s
+[2018/04/24 14:20:15] ret[21] 00E5 ( 0/28/5)  8086  A195  1028  07CC  0009  Bus 04: Link Trained x1, Speed Max 8.0 GT/s, Neg 5.0 GT/s
+[2018/04/24 14:20:15] ret[22] 00F8 ( 0/31/0)  8086  A1C1  1028  07CC  0009
+[2018/04/24 14:20:15] ret[23] 00FA ( 0/31/2)  8086  A1A1  1028  07CC  0009
+[2018/04/24 14:20:15] ret[24] 00FC ( 0/31/4)  8086  A1A3  1028  07CC  0009
+[2018/04/24 14:20:15] ret[25] 00FD ( 0/31/5)  8086  A1A4  1028  07CC  0009
+[2018/04/24 14:20:15] ret[26] 0200 ( 2/ 0/0)  1556  BE00  0007  0010  0002  Bus 03: Link Trained x1, Speed Max 5.0 GT/s, Neg 5.0 GT/s
+[2018/04/24 14:20:15] ret[27] 0300 ( 3/ 0/0)  102B  0536  1028  07CC  0004
+[2018/04/24 14:20:15] ret[28] 0400 ( 4/ 0/0)  14E4  165F  1028  001F  0000  Bus 04: Link Trained x1, Speed Max 5.0 GT/s, Neg 5.0 GT/s
+[2018/04/24 14:20:15] ret[29] 0401 ( 4/ 0/1)  14E4  165F  1028  001F  0000  Bus 04: Link Trained x1, Speed Max 5.0 GT/s, Neg 5.0 GT/s
+[2018/04/24 14:20:15] ret[30] 1600 (22/ 0/0)  8086  2030  8086  0000  0004  Bus 17: Link Trained x16, Speed Max 8.0 GT/s, Neg 8.0 GT/s, Slot 3
+[2018/04/24 14:20:15] ret[31] 1628 (22/ 5/0)  8086  2034  8086  0000  0004
+[2018/04/24 14:20:15] ret[32] 162A (22/ 5/2)  8086  2035  0000  0000  0004
+[2018/04/24 14:20:15] ret[33] 162C (22/ 5/4)  8086  2036  8086  2036  0004
+[2018/04/24 14:20:15] ret[34] 1640 (22/ 8/0)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[35] 1641 (22/ 8/1)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[36] 1642 (22/ 8/2)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[37] 1643 (22/ 8/3)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[38] 1644 (22/ 8/4)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[39] 1645 (22/ 8/5)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[40] 1646 (22/ 8/6)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[41] 1647 (22/ 8/7)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[42] 1648 (22/ 9/0)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[43] 1649 (22/ 9/1)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[44] 164A (22/ 9/2)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[45] 164B (22/ 9/3)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[46] 164C (22/ 9/4)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[47] 164D (22/ 9/5)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[48] 164E (22/ 9/6)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[49] 164F (22/ 9/7)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[50] 1650 (22/10/0)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[51] 1651 (22/10/1)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[52] 1652 (22/10/2)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[53] 1653 (22/10/3)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[54] 1654 (22/10/4)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[55] 1655 (22/10/5)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[56] 1656 (22/10/6)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[57] 1657 (22/10/7)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[58] 1658 (22/11/0)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[59] 1659 (22/11/1)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[60] 165A (22/11/2)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[61] 165B (22/11/3)  8086  208D  8086  0000  0004
+[2018/04/24 14:20:15] ret[62] 1670 (22/14/0)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[63] 1671 (22/14/1)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[64] 1672 (22/14/2)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[65] 1673 (22/14/3)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[66] 1674 (22/14/4)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[67] 1675 (22/14/5)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[68] 1676 (22/14/6)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[69] 1677 (22/14/7)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[70] 1678 (22/15/0)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[71] 1679 (22/15/1)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[72] 167A (22/15/2)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[73] 167B (22/15/3)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[74] 167C (22/15/4)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[75] 167D (22/15/5)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[76] 167E (22/15/6)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[77] 167F (22/15/7)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[78] 1680 (22/16/0)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[79] 1681 (22/16/1)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[80] 1682 (22/16/2)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[81] 1683 (22/16/3)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[82] 1684 (22/16/4)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[83] 1685 (22/16/5)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[84] 1686 (22/16/6)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[85] 1687 (22/16/7)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[86] 1688 (22/17/0)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[87] 1689 (22/17/1)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[88] 168A (22/17/2)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[89] 168B (22/17/3)  8086  208E  8086  0000  0004
+[2018/04/24 14:20:15] ret[90] 16E8 (22/29/0)  8086  2054  8086  0000  0004
+[2018/04/24 14:20:15] ret[91] 16E9 (22/29/1)  8086  2055  8086  0000  0004
+[2018/04/24 14:20:15] ret[92] 16EA (22/29/2)  8086  2056  8086  0000  0004
+[2018/04/24 14:20:15] ret[93] 16EB (22/29/3)  8086  2057  8086  0000  0004
+[2018/04/24 14:20:15] ret[94] 16F0 (22/30/0)  8086  2080  8086  0000  0004
+[2018/04/24 14:20:15] ret[95] 16F1 (22/30/1)  8086  2081  8086  0000  0004
+[2018/04/24 14:20:15] ret[96] 16F2 (22/30/2)  8086  2082  8086  0000  0004
+[2018/04/24 14:20:15] ret[97] 16F3 (22/30/3)  8086  2083  8086  0000  0004
+[2018/04/24 14:20:15] ret[98] 16F4 (22/30/4)  8086  2084  8086  0000  0004
+[2018/04/24 14:20:15] ret[99] 16F5 (22/30/5)  8086  2085  8086  0000  0004
+[2018/04/24 14:20:15] ret[100] 16F6 (22/30/6)  8086  2086  8086  0000  0004
+[2018/04/24 14:20:15] ret[101] 1700 (23/ 0/0)  10B5  8724  10B5  8724  000A  Bus 18: Link Trained x16, Speed Max 8.0 GT/s, Neg 8.0 GT/s, Slot 3
+[2018/04/24 14:20:15] ret[102] 1840 (24/ 8/0)  10B5  8724  10B5  8724  000A  Bus 19: Link Not Active, Slot 8 empty
+[2018/04/24 14:20:15] ret[103] 1848 (24/ 9/0)  10B5  8724  10B5  8724  000A  Bus 1A: Link Not Active, Slot 9 empty
+[2018/04/24 14:20:15] ret[104] 6400 (100/ 0/0)  8086  2030  8086  0000  0004  Bus 65: Link Trained x16, Speed Max 8.0 GT/s, Neg 8.0 GT/s, Slot 2
+[2018/04/24 14:20:15] ret[105] 6428 (100/ 5/0)  8086  2034  8086  0000  0004
+[2018/04/24 14:20:15] ret[106] 642A (100/ 5/2)  8086  2035  0000  0000  0004
+[2018/04/24 14:20:15] ret[107] 642C (100/ 5/4)  8086  2036  8086  2036  0004
+[2018/04/24 14:20:15] ret[108] 6440 (100/ 8/0)  8086  2066  8086  0000  0004
+[2018/04/24 14:20:15] ret[109] 6448 (100/ 9/0)  8086  2066  8086  0000  0004
+[2018/04/24 14:20:15] ret[110] 6450 (100/10/0)  8086  2040  8086  0000  0004
+[2018/04/24 14:20:15] ret[111] 6451 (100/10/1)  8086  2041  8086  0000  0004
+[2018/04/24 14:20:15] ret[112] 6452 (100/10/2)  8086  2042  8086  0000  0004
+[2018/04/24 14:20:15] ret[113] 6453 (100/10/3)  8086  2043  8086  0000  0004
+[2018/04/24 14:20:15] ret[114] 6454 (100/10/4)  8086  2044  8086  0000  0004
+[2018/04/24 14:20:15] ret[115] 6455 (100/10/5)  8086  2045  8086  0000  0004
+[2018/04/24 14:20:15] ret[116] 6456 (100/10/6)  8086  2046  8086  0000  0004
+[2018/04/24 14:20:15] ret[117] 6457 (100/10/7)  8086  2047  8086  0000  0004
+[2018/04/24 14:20:15] ret[118] 6458 (100/11/0)  8086  2048  8086  0000  0004
+[2018/04/24 14:20:15] ret[119] 6459 (100/11/1)  8086  2049  8086  0000  0004
+[2018/04/24 14:20:15] ret[120] 645A (100/11/2)  8086  204A  8086  0000  0004
+[2018/04/24 14:20:15] ret[121] 645B (100/11/3)  8086  204B  8086  0000  0004
+[2018/04/24 14:20:15] ret[122] 6460 (100/12/0)  8086  2040  8086  0000  0004
+[2018/04/24 14:20:15] ret[123] 6461 (100/12/1)  8086  2041  8086  0000  0004
+[2018/04/24 14:20:15] ret[124] 6462 (100/12/2)  8086  2042  8086  0000  0004
+[2018/04/24 14:20:15] ret[125] 6463 (100/12/3)  8086  2043  8086  0000  0004
+[2018/04/24 14:20:15] ret[126] 6464 (100/12/4)  8086  2044  8086  0000  0004
+[2018/04/24 14:20:15] ret[127] 6465 (100/12/5)  8086  2045  8086  0000  0004
+[2018/04/24 14:20:15] ret[128] 6466 (100/12/6)  8086  2046  8086  0000  0004
+[2018/04/24 14:20:15] ret[129] 6467 (100/12/7)  8086  2047  8086  0000  0004
+[2018/04/24 14:20:15] ret[130] 6468 (100/13/0)  8086  2048  8086  0000  0004
+[2018/04/24 14:20:15] ret[131] 6469 (100/13/1)  8086  2049  8086  0000  0004
+[2018/04/24 14:20:15] ret[132] 646A (100/13/2)  8086  204A  8086  0000  0004
+[2018/04/24 14:20:15] ret[133] 646B (100/13/3)  8086  204B  8086  0000  0004
+[2018/04/24 14:20:15] ret[134] 6500 (101/ 0/0)  10B5  8724  10B5  8724  000A  Bus 66: Link Trained x16, Speed Max 8.0 GT/s, Neg 8.0 GT/s, Slot 2
+[2018/04/24 14:20:15] ret[135] 6640 (102/ 8/0)  10B5  8724  10B5  8724  000A  Bus 67: Link Not Active, Slot 8 empty
+[2018/04/24 14:20:15] ret[136] 6648 (102/ 9/0)  10B5  8724  10B5  8724  000A  Bus 68: Link Not Active, Slot 9 empty
+[2018/04/24 14:20:15] ret[137] B200 (178/ 0/0)  8086  2030  8086  0000  0004  Bus B3: Link Trained x8, Speed Max 8.0 GT/s, Neg 8.0 GT/s
+[2018/04/24 14:20:15] ret[138] B210 (178/ 2/0)  8086  2032  8086  0000  0004  Bus B8: Link Trained x2, Speed Max 8.0 GT/s, Neg 5.0 GT/s, Slot 1
+[2018/04/24 14:20:15] ret[139] B228 (178/ 5/0)  8086  2034  8086  0000  0004
+[2018/04/24 14:20:15] ret[140] B22A (178/ 5/2)  8086  2035  0000  0000  0004
+[2018/04/24 14:20:15] ret[141] B22C (178/ 5/4)  8086  2036  8086  2036  0004
+[2018/04/24 14:20:15] ret[142] B270 (178/14/0)  8086  2058  8086  0000  0004
+[2018/04/24 14:20:15] ret[143] B271 (178/14/1)  8086  2059  8086  0000  0004
+[2018/04/24 14:20:15] ret[144] B278 (178/15/0)  8086  2058  8086  0000  0004
+[2018/04/24 14:20:15] ret[145] B279 (178/15/1)  8086  2059  8086  0000  0004
+[2018/04/24 14:20:15] ret[146] B280 (178/16/0)  8086  2058  8086  0000  0004
+[2018/04/24 14:20:15] ret[147] B281 (178/16/1)  8086  2059  8086  0000  0004
+[2018/04/24 14:20:15] ret[148] B290 (178/18/0)  8086  204C  8086  0000  0004
+[2018/04/24 14:20:15] ret[149] B291 (178/18/1)  8086  204D  8086  0000  0004
+[2018/04/24 14:20:15] ret[150] B292 (178/18/2)  8086  204E  8086  0000  0004
+[2018/04/24 14:20:15] ret[151] B294 (178/18/4)  8086  204C  8086  0000  0004
+[2018/04/24 14:20:15] ret[152] B295 (178/18/5)  8086  204D  8086  0000  0004
+[2018/04/24 14:20:15] ret[153] B2A8 (178/21/0)  8086  2018  8086  0000  0004
+[2018/04/24 14:20:15] ret[154] B2B0 (178/22/0)  8086  2018  8086  0000  0004
+[2018/04/24 14:20:15] ret[155] B2B4 (178/22/4)  8086  2018  8086  0000  0004
+[2018/04/24 14:20:15] ret[156] B2B8 (178/23/0)  8086  2018  8086  0000  0004
+[2018/04/24 14:20:15] ret[157] B300 (179/ 0/0)  10B5  8724  10B5  8724  000A  Bus B4: Link Trained x8, Speed Max 8.0 GT/s, Neg 8.0 GT/s
+[2018/04/24 14:20:15] ret[158] B408 (180/ 1/0)  10B5  8724  10B5  8724  000A  Bus B5: Link Not Active, Slot 1 empty
+[2018/04/24 14:20:15] ret[159] B440 (180/ 8/0)  10B5  8724  10B5  8724  000A  Bus B6: Link Not Active, Slot 8 empty
+[2018/04/24 14:20:15] ret[160] B448 (180/ 9/0)  10B5  8724  10B5  8724  000A  Bus B7: Link Not Active, Slot 9 empty
+[2018/04/24 14:20:15] ret[161] B800 (184/ 0/0)  14E4  165F  1028  1FEC  0000  Bus B8: Link Trained x2, Speed Max 5.0 GT/s, Neg 5.0 GT/s, Slot 1
+[2018/04/24 14:20:15] ret[162] B801 (184/ 0/1)  14E4  165F  1028  1FEC  0000  Bus B8: Link Trained x2, Speed Max 5.0 GT/s, Neg 5.0 GT/s, Slot 1
+[2018/04/24 14:20:15] ret[163] (PCIe Bus Test Results)
+[2018/04/24 14:20:15] ret[164] Status: Pass
+[2018/04/24 14:20:15] DDIAGS_PCIe_Test Pass
+[2018/04/24 14:20:16] Test Item: Check PCIe x8 Info [B2:00.0] [B8:00.0] (Check_PCIe_Info_X8)
+[2018/04/24 14:20:16] Get PCIe Device Information [B2:00.00]
+[2018/04/24 14:20:16] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:19] RW Command: RPCIE32 0xB2 0x00 0x00 0x00 -> Output: 0x20308086
+[2018/04/24 14:20:19] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:21] RW Command: RPCIE 0xB2 0x00 0x00 0x34 -> Output: 0x40
+[2018/04/24 14:20:21] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:23] RW Command: RPCIE16 0xB2 0x00 0x00 0x40 -> Output: 0x600D
+[2018/04/24 14:20:23] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:25] RW Command: RPCIE16 0xB2 0x00 0x00 0x60 -> Output: 0x9005
+[2018/04/24 14:20:25] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:28] RW Command: RPCIE16 0xB2 0x00 0x00 0x90 -> Output: 0xE010
+[2018/04/24 14:20:28] Find PCIe Capability ID (0x90)
+[2018/04/24 14:20:28] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:30] RW Command: RPCIE16 0xB2 0x00 0x00 0xA2 -> Output: 0x3083
+[2018/04/24 14:20:30] [B2:00.00] Vendor ID = 0x8086
+[2018/04/24 14:20:30] [B2:00.00] Device ID = 0x2030
+[2018/04/24 14:20:30] [B2:00.00] Link Speed = Gen3
+[2018/04/24 14:20:30] [B2:00.00] Link Width = x8
+[2018/04/24 14:20:30] Get PCIe Device Information [B8:00.00]
+[2018/04/24 14:20:30] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:32] RW Command: RPCIE32 0xB8 0x00 0x00 0x00 -> Output: 0x165F14E4
+[2018/04/24 14:20:32] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:35] RW Command: RPCIE 0xB8 0x00 0x00 0x34 -> Output: 0x48
+[2018/04/24 14:20:35] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:37] RW Command: RPCIE16 0xB8 0x00 0x00 0x48 -> Output: 0x5001
+[2018/04/24 14:20:37] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:39] RW Command: RPCIE16 0xB8 0x00 0x00 0x50 -> Output: 0x5803
+[2018/04/24 14:20:39] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:41] RW Command: RPCIE16 0xB8 0x00 0x00 0x58 -> Output: 0xA005
+[2018/04/24 14:20:41] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:44] RW Command: RPCIE16 0xB8 0x00 0x00 0xA0 -> Output: 0xAC11
+[2018/04/24 14:20:44] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:46] RW Command: RPCIE16 0xB8 0x00 0x00 0xAC -> Output: 0x10
+[2018/04/24 14:20:46] Find PCIe Capability ID (0xAC)
+[2018/04/24 14:20:46] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:48] RW Command: RPCIE16 0xB8 0x00 0x00 0xBE -> Output: 0x1022
+[2018/04/24 14:20:48] [B8:00.00] Vendor ID = 0x14E4
+[2018/04/24 14:20:48] [B8:00.00] Device ID = 0x165F
+[2018/04/24 14:20:48] [B8:00.00] Link Speed = Gen2
+[2018/04/24 14:20:48] [B8:00.00] Link Width = x2
+[2018/04/24 14:20:48] Check_PCIe_Info_X8 Pass
+[2018/04/24 14:20:49] Test Item: Check PCIe x16 Info [16:00.0] [64:00.0] (Check_PCIe_Info_X16)
+[2018/04/24 14:20:49] Get PCIe Device Information [16:00.00]
+[2018/04/24 14:20:49] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:52] RW Command: RPCIE32 0x16 0x00 0x00 0x00 -> Output: 0x20308086
+[2018/04/24 14:20:52] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:54] RW Command: RPCIE 0x16 0x00 0x00 0x34 -> Output: 0x40
+[2018/04/24 14:20:54] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:56] RW Command: RPCIE16 0x16 0x00 0x00 0x40 -> Output: 0x600D
+[2018/04/24 14:20:56] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:20:58] RW Command: RPCIE16 0x16 0x00 0x00 0x60 -> Output: 0x9005
+[2018/04/24 14:20:58] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:01] RW Command: RPCIE16 0x16 0x00 0x00 0x90 -> Output: 0xE010
+[2018/04/24 14:21:01] Find PCIe Capability ID (0x90)
+[2018/04/24 14:21:01] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:03] RW Command: RPCIE16 0x16 0x00 0x00 0xA2 -> Output: 0x3103
+[2018/04/24 14:21:03] [16:00.00] Vendor ID = 0x8086
+[2018/04/24 14:21:03] [16:00.00] Device ID = 0x2030
+[2018/04/24 14:21:03] [16:00.00] Link Speed = Gen3
+[2018/04/24 14:21:03] [16:00.00] Link Width = x16
+[2018/04/24 14:21:03] Get PCIe Device Information [64:00.00]
+[2018/04/24 14:21:03] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:05] RW Command: RPCIE32 0x64 0x00 0x00 0x00 -> Output: 0x20308086
+[2018/04/24 14:21:05] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:07] RW Command: RPCIE 0x64 0x00 0x00 0x34 -> Output: 0x40
+[2018/04/24 14:21:07] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:10] RW Command: RPCIE16 0x64 0x00 0x00 0x40 -> Output: 0x600D
+[2018/04/24 14:21:10] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:12] RW Command: RPCIE16 0x64 0x00 0x00 0x60 -> Output: 0x9005
+[2018/04/24 14:21:12] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:14] RW Command: RPCIE16 0x64 0x00 0x00 0x90 -> Output: 0xE010
+[2018/04/24 14:21:14] Find PCIe Capability ID (0x90)
+[2018/04/24 14:21:14] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:16] RW Command: RPCIE16 0x64 0x00 0x00 0xA2 -> Output: 0x3103
+[2018/04/24 14:21:16] [64:00.00] Vendor ID = 0x8086
+[2018/04/24 14:21:16] [64:00.00] Device ID = 0x2030
+[2018/04/24 14:21:16] [64:00.00] Link Speed = Gen3
+[2018/04/24 14:21:16] [64:00.00] Link Width = x16
+[2018/04/24 14:21:16] Check_PCIe_Info_X16 Pass
+[2018/04/24 14:21:17] Test Item: Check PCH Version (00:1F.00 Byte 0x08) (Check_PCH_Version)
+[2018/04/24 14:21:17] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:20] RW Command: Rpcie 0x00 0x1F 0x00 0x08 -> Output: 0x09
+[2018/04/24 14:21:20] Check_PCH_Version Pass
+[2018/04/24 14:21:21] Test Item: Check_HDD_Presence (Check_HDD_Presence)
+[2018/04/24 14:21:21] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:23] RW Command: Rpcie 0x00 0x11 0x05 0x96 -> Output: 0x3C
+[2018/04/24 14:21:23] Find sSATA_2
+[2018/04/24 14:21:23] Find sSATA_3
+[2018/04/24 14:21:23] Find sSATA_4
+[2018/04/24 14:21:23] Find sSATA_5
+[2018/04/24 14:21:23] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:25] RW Command: Rpcie 0x00 0x17 0x00 0x96 -> Output: 0xFF
+[2018/04/24 14:21:25] Find SATA_0
+[2018/04/24 14:21:25] Find SATA_1
+[2018/04/24 14:21:25] Find SATA_2
+[2018/04/24 14:21:25] Find SATA_3
+[2018/04/24 14:21:25] Input OS Command: rw.exe /command=cmd.txt /Min /Nologo /Logfile=out.txt
+[2018/04/24 14:21:28] RW Command: Rpcie 0x00 0x17 0x00 0x96 -> Output: 0xFF
+[2018/04/24 14:21:28] Find SATA_4
+[2018/04/24 14:21:28] Find SATA_5
+[2018/04/24 14:21:28] Find SATA_6
+[2018/04/24 14:21:28] Find SATA_7
+[2018/04/24 14:21:28] Check_HDD_Presence Pass
+[2018/04/24 14:21:29] Test Item: Check HDD Information (WMI) (Check_HDD_Info)
+[2018/04/24 14:21:29] Input OS Command: Disk.exe -conf
+[2018/04/24 14:22:23] ret[00] Disk module x64 factory release 6085.5
+[2018/04/24 14:22:23] ret[01] Device Discovery in Progress
+[2018/04/24 14:22:23] ret[02] Device Discovery Complete
+[2018/04/24 14:22:23] ret[03] **Device**
+[2018/04/24 14:22:23] ret[04] DeviceName              = HDDCONTROLLER0
+[2018/04/24 14:22:23] ret[05] DeviceMnemonic          = CNTLRHDD:0
+[2018/04/24 14:22:23] ret[06] DeviceTypeString        = CNTLRHDD
+[2018/04/24 14:22:23] ret[07] Commodity               = controller_card
+[2018/04/24 14:22:23] ret[08] Model                   = Standard SATA AHCI Controller
+[2018/04/24 14:22:23] ret[09] ControllerToken         = Standard SATA AHCI Controller
+[2018/04/24 14:22:23] ret[10] ControllerID            = 0x00000600
+[2018/04/24 14:22:23] ret[11] ControllerNumber        = 0
+[2018/04/24 14:22:23] ret[12] Interface               = SATA
+[2018/04/24 14:22:23] ret[13] PCIID                   = 8086 a1d2 1028 07cc
+[2018/04/24 14:22:23] ret[14] VendorId                = 8086
+[2018/04/24 14:22:23] ret[15] DeviceId                = a1d2
+[2018/04/24 14:22:23] ret[16] SubVendorId             = 1028
+[2018/04/24 14:22:23] ret[17] SubSystemId             = 07cc
+[2018/04/24 14:22:23] ret[18] ControllerInOrExt       = Internal
+[2018/04/24 14:22:23] ret[19] PortCount               = 0
+[2018/04/24 14:22:23] ret[20] 
+[2018/04/24 14:22:23] ret[21] 
+[2018/04/24 14:22:23] ret[22] **Device**
+[2018/04/24 14:22:23] ret[23] DeviceName              = HDD0
+[2018/04/24 14:22:23] ret[24] DeviceMnemonic          = HDD:0
+[2018/04/24 14:22:23] ret[25] DeviceMnemonic          = HDDSATA:0
+[2018/04/24 14:22:23] ret[26] DeviceMnemonic          = HDDATA:0
+[2018/04/24 14:22:23] ret[27] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[28] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[29] mSATADevice             = No
+[2018/04/24 14:22:23] ret[30] PhysicalDrive           = 0
+[2018/04/24 14:22:23] ret[31] Model                   = HGST HUS726060ALE614
+[2018/04/24 14:22:23] ret[32] Vendor                  = HGST
+[2018/04/24 14:22:23] ret[33] FwRev                   = APGNW517
+[2018/04/24 14:22:23] ret[34] SerialNumber            = NAG95YJY
+[2018/04/24 14:22:23] ret[35] Capacity                = 6001175MB
+[2018/04/24 14:22:23] ret[36] ControllerId            = 0x00000600
+[2018/04/24 14:22:23] ret[37] ControllerPciId         = 8086a1d2102807cc
+[2018/04/24 14:22:23] ret[38] ControllerPortNumber    = 1
+[2018/04/24 14:22:23] ret[39] Slot                    = 2
+[2018/04/24 14:22:23] ret[40] ControllerNumber        = 0
+[2018/04/24 14:22:23] ret[41] DriveChannelID          = 0:2
+[2018/04/24 14:22:23] ret[42] MotherBoardSlot         = 2
+[2018/04/24 14:22:23] ret[43] Width                   = 3500
+[2018/04/24 14:22:23] ret[44] BusType                 = SATA
+[2018/04/24 14:22:23] ret[45] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[46] SpindleSpeed            = 7200
+[2018/04/24 14:22:23] ret[47] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[48] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[49] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[50] DriveSectorType         = 512e
+[2018/04/24 14:22:23] ret[51] GListCount              = 0
+[2018/04/24 14:22:23] ret[52] 
+[2018/04/24 14:22:23] ret[53] 
+[2018/04/24 14:22:23] ret[54] **Device**
+[2018/04/24 14:22:23] ret[55] DeviceName              = HDD1
+[2018/04/24 14:22:23] ret[56] DeviceMnemonic          = HDD:1
+[2018/04/24 14:22:23] ret[57] DeviceMnemonic          = HDDSATA:1
+[2018/04/24 14:22:23] ret[58] DeviceMnemonic          = HDDATA:1
+[2018/04/24 14:22:23] ret[59] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[60] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[61] mSATADevice             = No
+[2018/04/24 14:22:23] ret[62] PhysicalDrive           = 1
+[2018/04/24 14:22:23] ret[63] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:22:23] ret[64] Vendor                  = Hitachi
+[2018/04/24 14:22:23] ret[65] FwRev                   = MK7OAA10
+[2018/04/24 14:22:23] ret[66] SerialNumber            = MK0A31YHKU661A
+[2018/04/24 14:22:23] ret[67] Capacity                = 2000398MB
+[2018/04/24 14:22:23] ret[68] ControllerId            = 0x00000600
+[2018/04/24 14:22:23] ret[69] ControllerPciId         = 8086a1d2102807cc
+[2018/04/24 14:22:23] ret[70] ControllerPortNumber    = 2
+[2018/04/24 14:22:23] ret[71] Slot                    = 3
+[2018/04/24 14:22:23] ret[72] ControllerNumber        = 0
+[2018/04/24 14:22:23] ret[73] DriveChannelID          = 0:3
+[2018/04/24 14:22:23] ret[74] MotherBoardSlot         = 3
+[2018/04/24 14:22:23] ret[75] Width                   = 3500
+[2018/04/24 14:22:23] ret[76] BusType                 = SATA
+[2018/04/24 14:22:23] ret[77] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[78] SpindleSpeed            = 7200
+[2018/04/24 14:22:23] ret[79] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[80] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[81] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[82] DriveSectorType         = 512n
+[2018/04/24 14:22:23] ret[83] GListCount              = 0
+[2018/04/24 14:22:23] ret[84] 
+[2018/04/24 14:22:23] ret[85] 
+[2018/04/24 14:22:23] ret[86] **Device**
+[2018/04/24 14:22:23] ret[87] DeviceName              = HDD2
+[2018/04/24 14:22:23] ret[88] DeviceMnemonic          = HDD:2
+[2018/04/24 14:22:23] ret[89] DeviceMnemonic          = HDDSATA:2
+[2018/04/24 14:22:23] ret[90] DeviceMnemonic          = HDDATA:2
+[2018/04/24 14:22:23] ret[91] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[92] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[93] mSATADevice             = No
+[2018/04/24 14:22:23] ret[94] PhysicalDrive           = 2
+[2018/04/24 14:22:23] ret[95] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:22:23] ret[96] Vendor                  = Hitachi
+[2018/04/24 14:22:23] ret[97] FwRev                   = MK7OAA10
+[2018/04/24 14:22:23] ret[98] SerialNumber            = MK0A31YHKVH9DA
+[2018/04/24 14:22:23] ret[99] Capacity                = 2000398MB
+[2018/04/24 14:22:23] ret[100] ControllerId            = 0x00000600
+[2018/04/24 14:22:23] ret[101] ControllerPciId         = 8086a1d2102807cc
+[2018/04/24 14:22:23] ret[102] ControllerPortNumber    = 3
+[2018/04/24 14:22:23] ret[103] Slot                    = 4
+[2018/04/24 14:22:23] ret[104] ControllerNumber        = 0
+[2018/04/24 14:22:23] ret[105] DriveChannelID          = 0:4
+[2018/04/24 14:22:23] ret[106] MotherBoardSlot         = 4
+[2018/04/24 14:22:23] ret[107] Width                   = 3500
+[2018/04/24 14:22:23] ret[108] BusType                 = SATA
+[2018/04/24 14:22:23] ret[109] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[110] SpindleSpeed            = 7200
+[2018/04/24 14:22:23] ret[111] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[112] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[113] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[114] DriveSectorType         = 512n
+[2018/04/24 14:22:23] ret[115] GListCount              = 0
+[2018/04/24 14:22:23] ret[116] 
+[2018/04/24 14:22:23] ret[117] 
+[2018/04/24 14:22:23] ret[118] **Device**
+[2018/04/24 14:22:23] ret[119] DeviceName              = HDD3
+[2018/04/24 14:22:23] ret[120] DeviceMnemonic          = HDD:3
+[2018/04/24 14:22:23] ret[121] DeviceMnemonic          = HDDSATA:3
+[2018/04/24 14:22:23] ret[122] DeviceMnemonic          = HDDATA:3
+[2018/04/24 14:22:23] ret[123] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[124] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[125] mSATADevice             = No
+[2018/04/24 14:22:23] ret[126] PhysicalDrive           = 3
+[2018/04/24 14:22:23] ret[127] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:22:23] ret[128] Vendor                  = Hitachi
+[2018/04/24 14:22:23] ret[129] FwRev                   = MK7OAA10
+[2018/04/24 14:22:23] ret[130] SerialNumber            = MK0A31YHKWTVPD
+[2018/04/24 14:22:23] ret[131] Capacity                = 2000398MB
+[2018/04/24 14:22:23] ret[132] ControllerId            = 0x00000600
+[2018/04/24 14:22:23] ret[133] ControllerPciId         = 8086a1d2102807cc
+[2018/04/24 14:22:23] ret[134] ControllerPortNumber    = 4
+[2018/04/24 14:22:23] ret[135] Slot                    = 5
+[2018/04/24 14:22:23] ret[136] ControllerNumber        = 0
+[2018/04/24 14:22:23] ret[137] DriveChannelID          = 0:5
+[2018/04/24 14:22:23] ret[138] MotherBoardSlot         = 5
+[2018/04/24 14:22:23] ret[139] Width                   = 3500
+[2018/04/24 14:22:23] ret[140] BusType                 = SATA
+[2018/04/24 14:22:23] ret[141] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[142] SpindleSpeed            = 7200
+[2018/04/24 14:22:23] ret[143] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[144] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[145] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[146] DriveSectorType         = 512n
+[2018/04/24 14:22:23] ret[147] GListCount              = 0
+[2018/04/24 14:22:23] ret[148] 
+[2018/04/24 14:22:23] ret[149] 
+[2018/04/24 14:22:23] ret[150] **Device**
+[2018/04/24 14:22:23] ret[151] DeviceName              = HDDCONTROLLER1
+[2018/04/24 14:22:23] ret[152] DeviceMnemonic          = CNTLRHDD:1
+[2018/04/24 14:22:23] ret[153] DeviceTypeString        = CNTLRHDD
+[2018/04/24 14:22:23] ret[154] Commodity               = controller_card
+[2018/04/24 14:22:23] ret[155] Model                   = Standard SATA AHCI Controller
+[2018/04/24 14:22:23] ret[156] ControllerToken         = Standard SATA AHCI Controller
+[2018/04/24 14:22:23] ret[157] ControllerID            = 0x00000601
+[2018/04/24 14:22:23] ret[158] ControllerNumber        = 1
+[2018/04/24 14:22:23] ret[159] Interface               = SATA
+[2018/04/24 14:22:23] ret[160] PCIID                   = 8086 a182 1028 07cc
+[2018/04/24 14:22:23] ret[161] VendorId                = 8086
+[2018/04/24 14:22:23] ret[162] DeviceId                = a182
+[2018/04/24 14:22:23] ret[163] SubVendorId             = 1028
+[2018/04/24 14:22:23] ret[164] SubSystemId             = 07cc
+[2018/04/24 14:22:23] ret[165] ControllerInOrExt       = Internal
+[2018/04/24 14:22:23] ret[166] PortCount               = 0
+[2018/04/24 14:22:23] ret[167] 
+[2018/04/24 14:22:23] ret[168] 
+[2018/04/24 14:22:23] ret[169] **Device**
+[2018/04/24 14:22:23] ret[170] DeviceName              = HDD4
+[2018/04/24 14:22:23] ret[171] DeviceMnemonic          = HDD:4
+[2018/04/24 14:22:23] ret[172] DeviceMnemonic          = HDDSATA:4
+[2018/04/24 14:22:23] ret[173] DeviceMnemonic          = HDDATA:4
+[2018/04/24 14:22:23] ret[174] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[175] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[176] mSATADevice             = No
+[2018/04/24 14:22:23] ret[177] PhysicalDrive           = 4
+[2018/04/24 14:22:23] ret[178] Model                   = Hitachi HUA722010CLA330
+[2018/04/24 14:22:23] ret[179] Vendor                  = Hitachi
+[2018/04/24 14:22:23] ret[180] FwRev                   = JP4OA3EA
+[2018/04/24 14:22:23] ret[181] SerialNumber            = JPW9J0N110M52V
+[2018/04/24 14:22:23] ret[182] Capacity                = 1000204MB
+[2018/04/24 14:22:23] ret[183] ControllerId            = 0x00000601
+[2018/04/24 14:22:23] ret[184] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:22:23] ret[185] ControllerPortNumber    = 0
+[2018/04/24 14:22:23] ret[186] Slot                    = 0
+[2018/04/24 14:22:23] ret[187] ControllerNumber        = 1
+[2018/04/24 14:22:23] ret[188] DriveChannelID          = 1:0
+[2018/04/24 14:22:23] ret[189] MotherBoardSlot         = 0
+[2018/04/24 14:22:23] ret[190] Width                   = 3500
+[2018/04/24 14:22:23] ret[191] BusType                 = SATA
+[2018/04/24 14:22:23] ret[192] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[193] SpindleSpeed            = 7200
+[2018/04/24 14:22:23] ret[194] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[195] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[196] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[197] DriveSectorType         = 512n
+[2018/04/24 14:22:23] ret[198] GListCount              = 0
+[2018/04/24 14:22:23] ret[199] 
+[2018/04/24 14:22:23] ret[200] 
+[2018/04/24 14:22:23] ret[201] **Device**
+[2018/04/24 14:22:23] ret[202] DeviceName              = HDD5
+[2018/04/24 14:22:23] ret[203] DeviceMnemonic          = HDD:5
+[2018/04/24 14:22:23] ret[204] DeviceMnemonic          = HDDSATA:5
+[2018/04/24 14:22:23] ret[205] DeviceMnemonic          = HDDATA:5
+[2018/04/24 14:22:23] ret[206] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[207] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[208] mSATADevice             = No
+[2018/04/24 14:22:23] ret[209] PhysicalDrive           = 5
+[2018/04/24 14:22:23] ret[210] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:22:23] ret[211] Vendor                  = Hitachi
+[2018/04/24 14:22:23] ret[212] FwRev                   = MK7OAA10
+[2018/04/24 14:22:23] ret[213] SerialNumber            = MK0A31YVG02UYA
+[2018/04/24 14:22:23] ret[214] Capacity                = 2000398MB
+[2018/04/24 14:22:23] ret[215] ControllerId            = 0x00000601
+[2018/04/24 14:22:23] ret[216] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:22:23] ret[217] ControllerPortNumber    = 0
+[2018/04/24 14:22:23] ret[218] Slot                    = 1
+[2018/04/24 14:22:23] ret[219] ControllerNumber        = 1
+[2018/04/24 14:22:23] ret[220] DriveChannelID          = 1:1
+[2018/04/24 14:22:23] ret[221] MotherBoardSlot         = 1
+[2018/04/24 14:22:23] ret[222] Width                   = 3500
+[2018/04/24 14:22:23] ret[223] BusType                 = SATA
+[2018/04/24 14:22:23] ret[224] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[225] SpindleSpeed            = 7200
+[2018/04/24 14:22:23] ret[226] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[227] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[228] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[229] DriveSectorType         = 512n
+[2018/04/24 14:22:23] ret[230] GListCount              = 1818
+[2018/04/24 14:22:23] ret[231] 
+[2018/04/24 14:22:23] ret[232] 
+[2018/04/24 14:22:23] ret[233] **Device**
+[2018/04/24 14:22:23] ret[234] DeviceName              = HDD6
+[2018/04/24 14:22:23] ret[235] DeviceMnemonic          = HDD:6
+[2018/04/24 14:22:23] ret[236] DeviceMnemonic          = HDDSATA:6
+[2018/04/24 14:22:23] ret[237] DeviceMnemonic          = HDDATA:6
+[2018/04/24 14:22:23] ret[238] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[239] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[240] mSATADevice             = No
+[2018/04/24 14:22:23] ret[241] PhysicalDrive           = 6
+[2018/04/24 14:22:23] ret[242] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:22:23] ret[243] Vendor                  = Hitachi
+[2018/04/24 14:22:23] ret[244] FwRev                   = MK7OAA10
+[2018/04/24 14:22:23] ret[245] SerialNumber            = MK0A31YHKYJ7VA
+[2018/04/24 14:22:23] ret[246] Capacity                = 2000398MB
+[2018/04/24 14:22:23] ret[247] ControllerId            = 0x00000601
+[2018/04/24 14:22:23] ret[248] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:22:23] ret[249] ControllerPortNumber    = 1
+[2018/04/24 14:22:23] ret[250] Slot                    = 2
+[2018/04/24 14:22:23] ret[251] ControllerNumber        = 1
+[2018/04/24 14:22:23] ret[252] DriveChannelID          = 1:2
+[2018/04/24 14:22:23] ret[253] MotherBoardSlot         = 2
+[2018/04/24 14:22:23] ret[254] Width                   = 3500
+[2018/04/24 14:22:23] ret[255] BusType                 = SATA
+[2018/04/24 14:22:23] ret[256] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[257] SpindleSpeed            = 7200
+[2018/04/24 14:22:23] ret[258] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[259] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[260] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[261] DriveSectorType         = 512n
+[2018/04/24 14:22:23] ret[262] GListCount              = 0
+[2018/04/24 14:22:23] ret[263] 
+[2018/04/24 14:22:23] ret[264] 
+[2018/04/24 14:22:23] ret[265] **Device**
+[2018/04/24 14:22:23] ret[266] DeviceName              = HDD7
+[2018/04/24 14:22:23] ret[267] DeviceMnemonic          = HDD:7
+[2018/04/24 14:22:23] ret[268] DeviceMnemonic          = HDDSATA:7
+[2018/04/24 14:22:23] ret[269] DeviceMnemonic          = HDDATA:7
+[2018/04/24 14:22:23] ret[270] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[271] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[272] mSATADevice             = No
+[2018/04/24 14:22:23] ret[273] PhysicalDrive           = 7
+[2018/04/24 14:22:23] ret[274] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:22:23] ret[275] Vendor                  = Hitachi
+[2018/04/24 14:22:23] ret[276] FwRev                   = MK7OAA10
+[2018/04/24 14:22:23] ret[277] SerialNumber            = MK0A31YHKWZAVA
+[2018/04/24 14:22:23] ret[278] Capacity                = 2000398MB
+[2018/04/24 14:22:23] ret[279] ControllerId            = 0x00000601
+[2018/04/24 14:22:23] ret[280] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:22:23] ret[281] ControllerPortNumber    = 2
+[2018/04/24 14:22:23] ret[282] Slot                    = 3
+[2018/04/24 14:22:23] ret[283] ControllerNumber        = 1
+[2018/04/24 14:22:23] ret[284] DriveChannelID          = 1:3
+[2018/04/24 14:22:23] ret[285] MotherBoardSlot         = 3
+[2018/04/24 14:22:23] ret[286] Width                   = 3500
+[2018/04/24 14:22:23] ret[287] BusType                 = SATA
+[2018/04/24 14:22:23] ret[288] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[289] SpindleSpeed            = 7200
+[2018/04/24 14:22:23] ret[290] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[291] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[292] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[293] DriveSectorType         = 512n
+[2018/04/24 14:22:23] ret[294] GListCount              = 0
+[2018/04/24 14:22:23] ret[295] 
+[2018/04/24 14:22:23] ret[296] 
+[2018/04/24 14:22:23] ret[297] **Device**
+[2018/04/24 14:22:23] ret[298] DeviceName              = HDD8
+[2018/04/24 14:22:23] ret[299] DeviceMnemonic          = HDD:8
+[2018/04/24 14:22:23] ret[300] DeviceMnemonic          = HDDSATA:8
+[2018/04/24 14:22:23] ret[301] DeviceMnemonic          = HDDATA:8
+[2018/04/24 14:22:23] ret[302] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[303] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[304] mSATADevice             = No
+[2018/04/24 14:22:23] ret[305] PhysicalDrive           = 8
+[2018/04/24 14:22:23] ret[306] Model                   = Hitachi HUA722010CLA330
+[2018/04/24 14:22:23] ret[307] Vendor                  = Hitachi
+[2018/04/24 14:22:23] ret[308] FwRev                   = JP4OA3EA
+[2018/04/24 14:22:23] ret[309] SerialNumber            = JPW9J0N110M3UV
+[2018/04/24 14:22:23] ret[310] Capacity                = 1000204MB
+[2018/04/24 14:22:23] ret[311] ControllerId            = 0x00000601
+[2018/04/24 14:22:23] ret[312] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:22:23] ret[313] ControllerPortNumber    = 3
+[2018/04/24 14:22:23] ret[314] Slot                    = 4
+[2018/04/24 14:22:23] ret[315] ControllerNumber        = 1
+[2018/04/24 14:22:23] ret[316] DriveChannelID          = 1:4
+[2018/04/24 14:22:23] ret[317] MotherBoardSlot         = 4
+[2018/04/24 14:22:23] ret[318] Width                   = 3500
+[2018/04/24 14:22:23] ret[319] BusType                 = SATA
+[2018/04/24 14:22:23] ret[320] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[321] SpindleSpeed            = 7200
+[2018/04/24 14:22:23] ret[322] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[323] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[324] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[325] DriveSectorType         = 512n
+[2018/04/24 14:22:23] ret[326] GListCount              = 2
+[2018/04/24 14:22:23] ret[327] 
+[2018/04/24 14:22:23] ret[328] 
+[2018/04/24 14:22:23] ret[329] **Device**
+[2018/04/24 14:22:23] ret[330] DeviceName              = HDD9
+[2018/04/24 14:22:23] ret[331] DeviceMnemonic          = HDD:9
+[2018/04/24 14:22:23] ret[332] DeviceMnemonic          = HDDSATA:9
+[2018/04/24 14:22:23] ret[333] DeviceMnemonic          = HDDATA:9
+[2018/04/24 14:22:23] ret[334] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[335] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[336] mSATADevice             = No
+[2018/04/24 14:22:23] ret[337] PhysicalDrive           = 9
+[2018/04/24 14:22:23] ret[338] Model                   = ST320LT012-1DG14C
+[2018/04/24 14:22:23] ret[339] Vendor                  = SEAGATE
+[2018/04/24 14:22:23] ret[340] FwRev                   = 0002SDM1
+[2018/04/24 14:22:23] ret[341] SerialNumber            = WBY9J60B
+[2018/04/24 14:22:23] ret[342] PPID                    = CN0M4VY5SGW0072Q001KA02
+[2018/04/24 14:22:23] ret[343] Capacity                = 320072MB
+[2018/04/24 14:22:23] ret[344] ControllerId            = 0x00000601
+[2018/04/24 14:22:23] ret[345] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:22:23] ret[346] ControllerPortNumber    = 4
+[2018/04/24 14:22:23] ret[347] Slot                    = 5
+[2018/04/24 14:22:23] ret[348] ControllerNumber        = 1
+[2018/04/24 14:22:23] ret[349] DriveChannelID          = 1:5
+[2018/04/24 14:22:23] ret[350] MotherBoardSlot         = 5
+[2018/04/24 14:22:23] ret[351] Width                   = 2500
+[2018/04/24 14:22:23] ret[352] BusType                 = SATA
+[2018/04/24 14:22:23] ret[353] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[354] SpindleSpeed            = 5400
+[2018/04/24 14:22:23] ret[355] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[356] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[357] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[358] DriveSectorType         = 512e
+[2018/04/24 14:22:23] ret[359] GListCount              = 16
+[2018/04/24 14:22:23] ret[360] 
+[2018/04/24 14:22:23] ret[361] 
+[2018/04/24 14:22:23] ret[362] **Device**
+[2018/04/24 14:22:23] ret[363] DeviceName              = HDD10
+[2018/04/24 14:22:23] ret[364] DeviceMnemonic          = HDD:10
+[2018/04/24 14:22:23] ret[365] DeviceMnemonic          = HDDSATA:10
+[2018/04/24 14:22:23] ret[366] DeviceMnemonic          = HDDATA:10
+[2018/04/24 14:22:23] ret[367] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[368] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[369] mSATADevice             = No
+[2018/04/24 14:22:23] ret[370] PhysicalDrive           = 10
+[2018/04/24 14:22:23] ret[371] Model                   = Hitachi HUA722010CLA330
+[2018/04/24 14:22:23] ret[372] Vendor                  = Hitachi
+[2018/04/24 14:22:23] ret[373] FwRev                   = JP4OA3EA
+[2018/04/24 14:22:23] ret[374] SerialNumber            = JPW9J0N110DLEV
+[2018/04/24 14:22:23] ret[375] Capacity                = 1000204MB
+[2018/04/24 14:22:23] ret[376] ControllerId            = 0x00000601
+[2018/04/24 14:22:23] ret[377] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:22:23] ret[378] ControllerPortNumber    = 5
+[2018/04/24 14:22:23] ret[379] Slot                    = 6
+[2018/04/24 14:22:23] ret[380] ControllerNumber        = 1
+[2018/04/24 14:22:23] ret[381] DriveChannelID          = 1:6
+[2018/04/24 14:22:23] ret[382] MotherBoardSlot         = 6
+[2018/04/24 14:22:23] ret[383] Width                   = 3500
+[2018/04/24 14:22:23] ret[384] BusType                 = SATA
+[2018/04/24 14:22:23] ret[385] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[386] SpindleSpeed            = 7200
+[2018/04/24 14:22:23] ret[387] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[388] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[389] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[390] DriveSectorType         = 512n
+[2018/04/24 14:22:23] ret[391] GListCount              = 0
+[2018/04/24 14:22:23] ret[392] 
+[2018/04/24 14:22:23] ret[393] 
+[2018/04/24 14:22:23] ret[394] **Device**
+[2018/04/24 14:22:23] ret[395] DeviceName              = HDD11
+[2018/04/24 14:22:23] ret[396] DeviceMnemonic          = HDD:11
+[2018/04/24 14:22:23] ret[397] DeviceMnemonic          = HDDSATA:11
+[2018/04/24 14:22:23] ret[398] DeviceMnemonic          = HDDATA:11
+[2018/04/24 14:22:23] ret[399] DeviceTypeString        = HDDSATA
+[2018/04/24 14:22:23] ret[400] Commodity               = hard_drive
+[2018/04/24 14:22:23] ret[401] mSATADevice             = No
+[2018/04/24 14:22:23] ret[402] PhysicalDrive           = 11
+[2018/04/24 14:22:23] ret[403] Model                   = ST32000644NS
+[2018/04/24 14:22:23] ret[404] Vendor                  = SEAGATE
+[2018/04/24 14:22:23] ret[405] FwRev                   = KA06
+[2018/04/24 14:22:23] ret[406] SerialNumber            = 9WM6XKCQ
+[2018/04/24 14:22:23] ret[407] PPID                    = TH0VGY1F2123318200T4A02
+[2018/04/24 14:22:23] ret[408] Capacity                = 2000398MB
+[2018/04/24 14:22:23] ret[409] ControllerId            = 0x00000601
+[2018/04/24 14:22:23] ret[410] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:22:23] ret[411] ControllerPortNumber    = 6
+[2018/04/24 14:22:23] ret[412] Slot                    = 7
+[2018/04/24 14:22:23] ret[413] ControllerNumber        = 1
+[2018/04/24 14:22:23] ret[414] DriveChannelID          = 1:7
+[2018/04/24 14:22:23] ret[415] MotherBoardSlot         = 7
+[2018/04/24 14:22:23] ret[416] Width                   = 3500
+[2018/04/24 14:22:23] ret[417] BusType                 = SATA
+[2018/04/24 14:22:23] ret[418] Interface               = SERIAL
+[2018/04/24 14:22:23] ret[419] SpindleSpeed            = 7200
+[2018/04/24 14:22:23] ret[420] DevInitPowManEnabled    = No
+[2018/04/24 14:22:23] ret[421] WriteCache              = Enabled
+[2018/04/24 14:22:23] ret[422] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[423] DriveSectorType         = 512n
+[2018/04/24 14:22:23] ret[424] GListCount              = 1
+[2018/04/24 14:22:23] ret[425] 
+[2018/04/24 14:22:23] ret[426] 
+[2018/04/24 14:22:23] ret[427] **Device**
+[2018/04/24 14:22:23] ret[428] DeviceName              = HDDUSB0
+[2018/04/24 14:22:23] ret[429] DeviceMnemonic          = HDDUSB:0
+[2018/04/24 14:22:23] ret[430] DeviceTypeString        = HDDUSB
+[2018/04/24 14:22:23] ret[431] Commodity               = Not_Applicable
+[2018/04/24 14:22:23] ret[432] mSATADevice             = No
+[2018/04/24 14:22:23] ret[433] PhysicalDrive           = 12
+[2018/04/24 14:22:23] ret[434] Model                   = Cruzer Glide 3.0
+[2018/04/24 14:22:23] ret[435] Vendor                  = SanDisk
+[2018/04/24 14:22:23] ret[436] FwRev                   = 1.00
+[2018/04/24 14:22:23] ret[437] SerialNumber            = 4C530001260917104063
+[2018/04/24 14:22:23] ret[438] Capacity                = 15669MB
+[2018/04/24 14:22:23] ret[439] BusType                 = USB
+[2018/04/24 14:22:23] ret[440] Interface               = USB
+[2018/04/24 14:22:23] ret[441] EncryptingDrive         = NO
+[2018/04/24 14:22:23] ret[442] DriveSectorType         = 512n
+[2018/04/24 14:22:24] ret[443] 
+[2018/04/24 14:22:24] ret[444] 
+[2018/04/24 14:22:24] ret[445] **Device**
+[2018/04/24 14:22:24] ret[446] DeviceName              = HDDUSB1
+[2018/04/24 14:22:24] ret[447] DeviceMnemonic          = HDDUSB:1
+[2018/04/24 14:22:24] ret[448] DeviceTypeString        = HDDUSB
+[2018/04/24 14:22:24] ret[449] Commodity               = Not_Applicable
+[2018/04/24 14:22:24] ret[450] mSATADevice             = No
+[2018/04/24 14:22:24] ret[451] PhysicalDrive           = 13
+[2018/04/24 14:22:24] ret[452] Model                   = IDSDM
+[2018/04/24 14:22:24] ret[453] Vendor                  = DELL
+[2018/04/24 14:22:24] ret[454] FwRev                   = 0001
+[2018/04/24 14:22:24] ret[455] SerialNumber            = 012345678901
+[2018/04/24 14:22:24] ret[456] Capacity                = 1028MB
+[2018/04/24 14:22:24] ret[457] BusType                 = USB
+[2018/04/24 14:22:24] ret[458] Interface               = USB
+[2018/04/24 14:22:24] ret[459] EncryptingDrive         = NO
+[2018/04/24 14:22:24] ret[460] DriveSectorType         = 512n
+[2018/04/24 14:22:24] ret[461] 
+[2018/04/24 14:22:24] ret[462] 
+[2018/04/24 14:22:24] ret[463] **Device**
+[2018/04/24 14:22:24] ret[464] DeviceName              = HDDUSB2
+[2018/04/24 14:22:24] ret[465] DeviceMnemonic          = HDDUSB:2
+[2018/04/24 14:22:24] ret[466] DeviceTypeString        = HDDUSB
+[2018/04/24 14:22:24] ret[467] Commodity               = Not_Applicable
+[2018/04/24 14:22:24] ret[468] mSATADevice             = No
+[2018/04/24 14:22:24] ret[469] PhysicalDrive           = 14
+[2018/04/24 14:22:24] ret[470] Model                   = Cruzer Glide 3.0
+[2018/04/24 14:22:24] ret[471] Vendor                  = SanDisk
+[2018/04/24 14:22:24] ret[472] FwRev                   = 1.00
+[2018/04/24 14:22:24] ret[473] SerialNumber            = 4C530001210917104063
+[2018/04/24 14:22:24] ret[474] Capacity                = 15669MB
+[2018/04/24 14:22:24] ret[475] BusType                 = USB
+[2018/04/24 14:22:24] ret[476] Interface               = USB
+[2018/04/24 14:22:24] ret[477] EncryptingDrive         = NO
+[2018/04/24 14:22:24] ret[478] DriveSectorType         = 512n
+[2018/04/24 14:22:24] ret[479] 
+[2018/04/24 14:22:24] ret[480] 
+[2018/04/24 14:22:24] ret[481] **Device**
+[2018/04/24 14:22:24] ret[482] DeviceName              = HDDUSB3
+[2018/04/24 14:22:24] ret[483] DeviceMnemonic          = HDDUSB:3
+[2018/04/24 14:22:24] ret[484] DeviceTypeString        = HDDUSB
+[2018/04/24 14:22:24] ret[485] Commodity               = Not_Applicable
+[2018/04/24 14:22:24] ret[486] mSATADevice             = No
+[2018/04/24 14:22:24] ret[487] PhysicalDrive           = 15
+[2018/04/24 14:22:24] ret[488] Model                   = Cruzer Glide 3.0
+[2018/04/24 14:22:24] ret[489] Vendor                  = SanDisk
+[2018/04/24 14:22:24] ret[490] FwRev                   = 1.00
+[2018/04/24 14:22:24] ret[491] SerialNumber            = 4C530001080917104115
+[2018/04/24 14:22:24] ret[492] Capacity                = 15669MB
+[2018/04/24 14:22:24] ret[493] BusType                 = USB
+[2018/04/24 14:22:24] ret[494] Interface               = USB
+[2018/04/24 14:22:24] ret[495] EncryptingDrive         = NO
+[2018/04/24 14:22:24] ret[496] DriveSectorType         = 512n
+[2018/04/24 14:22:24] ret[497] 
+[2018/04/24 14:22:24] ret[498] 
+[2018/04/24 14:22:24] Check_HDD_Info Pass
+[2018/04/24 14:22:25] Test Item: DDIAGS_Disk_Test (DDIAGS_Disk_Test)
+[2018/04/24 14:22:25] Input OS Command: disk.exe -d:HDD:0 -d:HDD:1 -d:HDD:2 -d:HDD:3 -d:HDD:4 -d:HDD:5 -d:HDD:6 -d:HDD:7 -d:HDD:8 -d:HDD:9 -d:HDD:10 -d:HDD:11 -f:11
+[2018/04/24 14:23:30] ret[00] Disk module x64 factory release 6085.5
+[2018/04/24 14:23:30] ret[01] Device Discovery in Progress
+[2018/04/24 14:23:30] ret[02] Device Discovery Complete
+[2018/04/24 14:23:30] ret[03] HDD0 (0:2) DSTShort:
+[2018/04/24 14:23:30] ret[04] HDD0 (0:2) DSTShort:
+[2018/04/24 14:23:30] ret[05] HDD1 (0:3) DSTShort:
+[2018/04/24 14:23:30] ret[06] HDD1 (0:3) DSTShort:
+[2018/04/24 14:23:30] ret[07] HDD2 (0:4) DSTShort:
+[2018/04/24 14:23:30] ret[08] HDD2 (0:4) DSTShort:
+[2018/04/24 14:23:30] ret[09] HDD3 (0:5) DSTShort:
+[2018/04/24 14:23:30] ret[10] HDD3 (0:5) DSTShort:
+[2018/04/24 14:23:30] ret[11] HDD4 (1:0) DSTShort:
+[2018/04/24 14:23:30] ret[12] HDD4 (1:0) DSTShort:
+[2018/04/24 14:23:30] ret[13] HDD5 (1:1) DSTShort:
+[2018/04/24 14:23:30] ret[14] HDD5 (1:1) DSTShort:
+[2018/04/24 14:23:30] ret[15] HDD6 (1:2) DSTShort:
+[2018/04/24 14:23:30] ret[16] HDD6 (1:2) DSTShort:
+[2018/04/24 14:23:30] ret[17] HDD7 (1:3) DSTShort:
+[2018/04/24 14:23:30] ret[18] HDD7 (1:3) DSTShort:
+[2018/04/24 14:23:30] ret[19] HDD8 (1:4) DSTShort:
+[2018/04/24 14:23:30] ret[20] HDD8 (1:4) DSTShort:
+[2018/04/24 14:23:30] ret[21] HDD9 (1:5) DSTShort:
+[2018/04/24 14:23:30] ret[22] HDD9 (1:5) DSTShort:
+[2018/04/24 14:23:30] ret[23] HDD10 (1:6) DSTShort:
+[2018/04/24 14:23:30] ret[24] HDD10 (1:6) DSTShort:
+[2018/04/24 14:23:30] ret[25] HDD11 (1:7) DSTShort:
+[2018/04/24 14:23:30] ret[26] HDD11 (1:7) DSTShort:
+[2018/04/24 14:23:30] ret[27] Total elapsed time: 00:01:00
+[2018/04/24 14:23:30] ret[28] (HDD0 (0:2) Test Results)
+[2018/04/24 14:23:30] ret[29] Status: Pass
+[2018/04/24 14:23:30] ret[30] (HDD1 (0:3) Test Results)
+[2018/04/24 14:23:30] ret[31] Status: Pass
+[2018/04/24 14:23:30] ret[32] (HDD2 (0:4) Test Results)
+[2018/04/24 14:23:30] ret[33] Status: Pass
+[2018/04/24 14:23:30] ret[34] (HDD3 (0:5) Test Results)
+[2018/04/24 14:23:30] ret[35] Status: Pass
+[2018/04/24 14:23:30] ret[36] (HDD4 (1:0) Test Results)
+[2018/04/24 14:23:30] ret[37] Status: Pass
+[2018/04/24 14:23:30] ret[38] (HDD5 (1:1) Test Results)
+[2018/04/24 14:23:30] ret[39] Status: Pass
+[2018/04/24 14:23:30] ret[40] (HDD6 (1:2) Test Results)
+[2018/04/24 14:23:30] ret[41] Status: Pass
+[2018/04/24 14:23:30] ret[42] (HDD7 (1:3) Test Results)
+[2018/04/24 14:23:30] ret[43] Status: Pass
+[2018/04/24 14:23:30] ret[44] (HDD8 (1:4) Test Results)
+[2018/04/24 14:23:30] ret[45] Status: Pass
+[2018/04/24 14:23:30] ret[46] (HDD9 (1:5) Test Results)
+[2018/04/24 14:23:30] ret[47] Status: Pass
+[2018/04/24 14:23:30] ret[48] (HDD10 (1:6) Test Results)
+[2018/04/24 14:23:30] ret[49] Status: Pass
+[2018/04/24 14:23:30] ret[50] (HDD11 (1:7) Test Results)
+[2018/04/24 14:23:30] ret[51] Status: Pass
+[2018/04/24 14:23:30] DDIAGS_Disk_Test Pass
+[2018/04/24 14:23:31] Test Item: Check_USB_Device (Check_USB_Device)
+[2018/04/24 14:23:31] Input OS Command: RUSB.exe -Hub 4 -Dev 7 -Low 1 -Full 2 -High 8
+[2018/04/24 14:23:33] ret[00] USB Enumeration Test Program (Windows Console Application)
+[2018/04/24 14:23:33] ret[01] 
+[2018/04/24 14:23:33] ret[02] Copyright (C) 2004-2008 Dell Inc. All Rights Reserved.
+[2018/04/24 14:23:33] ret[03] USB Enumeration Test - Version: RUSB V2.10 Jul 31 2008
+[2018/04/24 14:23:33] ret[04] 
+[2018/04/24 14:23:33] ret[05] Test will run with below command line:
+[2018/04/24 14:23:33] ret[06] RUSB.EXE /Hub 4 /Dev 7 /Low 1 /Full 2 /High 8
+[2018/04/24 14:23:33] ret[07] 
+[2018/04/24 14:23:33] ret[08] RUSB.EXE Test Start...
+[2018/04/24 14:23:33] ret[09] RUSB V2.10 Jul 31 2008
+[2018/04/24 14:23:33] ret[10] Host Controller \\.\HCD0 found.
+[2018/04/24 14:23:33] ret[11] System name is {36fc9e60-c465-11cf-8056-444553540000}\0022
+[2018/04/24 14:23:33] ret[12] and root hub name is USB#ROOT_HUB30#4&dd0abed&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[2018/04/24 14:23:33] ret[13] Root hub handle 64 created
+[2018/04/24 14:23:33] ret[14] Port[1] = No device connected
+[2018/04/24 14:23:33] ret[15] Port[2] = No device connected
+[2018/04/24 14:23:33] ret[16] Port[3] = No device connected
+[2018/04/24 14:23:33] ret[17] Port[4] = No device connected
+[2018/04/24 14:23:33] ret[18] Port[5] = No device connected
+[2018/04/24 14:23:33] ret[19] Port[6] = No device connected
+[2018/04/24 14:23:33] ret[20] Port[7] = No device connected
+[2018/04/24 14:23:33] ret[21] Port[8] = No device connected
+[2018/04/24 14:23:33] ret[22] Port[9] = No device connected
+[2018/04/24 14:23:33] ret[23] Port[10] = I/O device connected, Device Bus Speed:   High
+[2018/04/24 14:23:33] ret[24] Device Descriptor
+[2018/04/24 14:23:33] ret[25] bLength             12
+[2018/04/24 14:23:33] ret[26] bDescriptorType     01
+[2018/04/24 14:23:33] ret[27] bcdUSB            0210
+[2018/04/24 14:23:33] ret[28] bDeviceClass        00
+[2018/04/24 14:23:33] ret[29] bDeviceSubClass     00
+[2018/04/24 14:23:33] ret[30] bDeviceProtocol     00
+[2018/04/24 14:23:33] ret[31] bMaxEP0Size         40
+[2018/04/24 14:23:33] ret[32] wVendorID         0781
+[2018/04/24 14:23:33] ret[33] wProductID        5597
+[2018/04/24 14:23:33] ret[34] wDeviceID         0100
+[2018/04/24 14:23:33] ret[35] iManufacturer       01 = SanDisk
+[2018/04/24 14:23:33] ret[36] iProduct            02 = Cruzer Glide 3.0
+[2018/04/24 14:23:33] ret[37] iSerialNumber       03 = 4C530001210917104063
+[2018/04/24 14:23:33] ret[38] bNumConfigurations  01
+[2018/04/24 14:23:33] ret[39] Port[11] = Hub connected, Hub Bus Speed:   High
+[2018/04/24 14:23:33] ret[40] Connected hub handle 68 created
+[2018/04/24 14:23:33] ret[41] +1        Port[1] = I/O device connected, Device Bus Speed:   High
+[2018/04/24 14:23:33] ret[42] Device Descriptor
+[2018/04/24 14:23:33] ret[43] bLength             12
+[2018/04/24 14:23:33] ret[44] bDescriptorType     01
+[2018/04/24 14:23:33] ret[45] bcdUSB            0210
+[2018/04/24 14:23:33] ret[46] bDeviceClass        00
+[2018/04/24 14:23:33] ret[47] bDeviceSubClass     00
+[2018/04/24 14:23:33] ret[48] bDeviceProtocol     00
+[2018/04/24 14:23:33] ret[49] bMaxEP0Size         40
+[2018/04/24 14:23:33] ret[50] wVendorID         0781
+[2018/04/24 14:23:33] ret[51] wProductID        5597
+[2018/04/24 14:23:33] ret[52] wDeviceID         0100
+[2018/04/24 14:23:33] ret[53] iManufacturer       01 = SanDisk
+[2018/04/24 14:23:33] ret[54] iProduct            02 = Cruzer Glide 3.0
+[2018/04/24 14:23:33] ret[55] iSerialNumber       03 = 4C530001080917104115
+[2018/04/24 14:23:33] ret[56] bNumConfigurations  01
+[2018/04/24 14:23:33] ret[57] +1        Port[2] = I/O device connected, Device Bus Speed:   Full
+[2018/04/24 14:23:33] ret[58] Device Descriptor
+[2018/04/24 14:23:33] ret[59] bLength             12
+[2018/04/24 14:23:33] ret[60] bDescriptorType     01
+[2018/04/24 14:23:33] ret[61] bcdUSB            0110
+[2018/04/24 14:23:33] ret[62] bDeviceClass        00
+[2018/04/24 14:23:33] ret[63] bDeviceSubClass     00
+[2018/04/24 14:23:33] ret[64] bDeviceProtocol     00
+[2018/04/24 14:23:33] ret[65] bMaxEP0Size         40
+[2018/04/24 14:23:33] ret[66] wVendorID         067b
+[2018/04/24 14:23:33] ret[67] wProductID        2303
+[2018/04/24 14:23:33] ret[68] wDeviceID         0300
+[2018/04/24 14:23:33] ret[69] iManufacturer       01 =
+[2018/04/24 14:23:33] ret[70] iProduct            02 =
+[2018/04/24 14:23:33] ret[71] iSerialNumber       00
+[2018/04/24 14:23:33] ret[72] bNumConfigurations  01
+[2018/04/24 14:23:33] ret[73] +1        Port[3] = I/O device connected, Device Bus Speed:   Full
+[2018/04/24 14:23:33] ret[74] Device Descriptor
+[2018/04/24 14:23:33] ret[75] bLength             12
+[2018/04/24 14:23:33] ret[76] bDescriptorType     01
+[2018/04/24 14:23:33] ret[77] bcdUSB            0200
+[2018/04/24 14:23:33] ret[78] bDeviceClass        00
+[2018/04/24 14:23:33] ret[79] bDeviceSubClass     00
+[2018/04/24 14:23:33] ret[80] bDeviceProtocol     00
+[2018/04/24 14:23:33] ret[81] bMaxEP0Size         08
+[2018/04/24 14:23:33] ret[82] wVendorID         05e0
+[2018/04/24 14:23:33] ret[83] wProductID        1200
+[2018/04/24 14:23:33] ret[84] wDeviceID         0201
+[2018/04/24 14:23:33] ret[85] iManufacturer       01 =
+[2018/04/24 14:23:33] ret[86] iProduct            02 = Symbol Bar Code Scanner
+[2018/04/24 14:23:33] ret[87] iSerialNumber       03 = S/N:CC351E1C07268D469B6598AEDD6704E1 Rev:NBRPPAAQ3
+[2018/04/24 14:23:33] ret[88] bNumConfigurations  01
+[2018/04/24 14:23:33] ret[89] +1        Port[4] = I/O device connected, Device Bus Speed:   Low
+[2018/04/24 14:23:33] ret[90] Device Descriptor
+[2018/04/24 14:23:33] ret[91] bLength             12
+[2018/04/24 14:23:33] ret[92] bDescriptorType     01
+[2018/04/24 14:23:33] ret[93] bcdUSB            0110
+[2018/04/24 14:23:33] ret[94] bDeviceClass        00
+[2018/04/24 14:23:33] ret[95] bDeviceSubClass     00
+[2018/04/24 14:23:33] ret[96] bDeviceProtocol     00
+[2018/04/24 14:23:33] ret[97] bMaxEP0Size         08
+[2018/04/24 14:23:33] ret[98] wVendorID         093a
+[2018/04/24 14:23:33] ret[99] wProductID        2510
+[2018/04/24 14:23:33] ret[100] wDeviceID         0100
+[2018/04/24 14:23:33] ret[101] iManufacturer       01 =
+[2018/04/24 14:23:33] ret[102] iProduct            02 =
+[2018/04/24 14:23:33] ret[103] iSerialNumber       00
+[2018/04/24 14:23:33] ret[104] bNumConfigurations  01
+[2018/04/24 14:23:33] ret[105] Closing connected hub handle 68
+[2018/04/24 14:23:33] ret[106] Port[12] = No device connected
+[2018/04/24 14:23:33] ret[107] Port[13] = No device connected
+[2018/04/24 14:23:33] ret[108] Port[14] = Hub connected, Hub Bus Speed:   High
+[2018/04/24 14:23:33] ret[109] Connected hub handle 68 created
+[2018/04/24 14:23:33] ret[110] +1        Port[1] = Hub connected, Hub Bus Speed:   High
+[2018/04/24 14:23:33] ret[111] Connected hub handle 72 created
+[2018/04/24 14:23:33] ret[112] +1+1        Port[1] = No device connected
+[2018/04/24 14:23:33] ret[113] +1+1        Port[2] = No device connected
+[2018/04/24 14:23:33] ret[114] +1+1        Port[3] = No device connected
+[2018/04/24 14:23:33] ret[115] +1+1        Port[4] = No device connected
+[2018/04/24 14:23:33] ret[116] Closing connected hub handle 72
+[2018/04/24 14:23:33] ret[117] +1        Port[2] = No device connected
+[2018/04/24 14:23:33] ret[118] +1        Port[3] = No device connected
+[2018/04/24 14:23:33] ret[119] +1        Port[4] = Hub connected, Hub Bus Speed:   High
+[2018/04/24 14:23:33] ret[120] Connected hub handle 72 created
+[2018/04/24 14:23:33] ret[121] +1+1        Port[1] = No device connected
+[2018/04/24 14:23:33] ret[122] +1+1        Port[2] = No device connected
+[2018/04/24 14:23:33] ret[123] +1+1        Port[3] = No device connected
+[2018/04/24 14:23:33] ret[124] +1+1        Port[4] = No device connected
+[2018/04/24 14:23:33] ret[125] Closing connected hub handle 72
+[2018/04/24 14:23:33] ret[126] Closing connected hub handle 68
+[2018/04/24 14:23:33] ret[127] Port[15] = No device connected
+[2018/04/24 14:23:33] ret[128] Port[16] = No device connected
+[2018/04/24 14:23:33] ret[129] Port[17] = No device connected
+[2018/04/24 14:23:33] ret[130] Port[18] = I/O device connected, Device Bus Speed:   High
+[2018/04/24 14:23:33] ret[131] Device Descriptor
+[2018/04/24 14:23:33] ret[132] bLength             12
+[2018/04/24 14:23:33] ret[133] bDescriptorType     01
+[2018/04/24 14:23:33] ret[134] bcdUSB            0300
+[2018/04/24 14:23:33] ret[135] bDeviceClass        00
+[2018/04/24 14:23:33] ret[136] bDeviceSubClass     00
+[2018/04/24 14:23:33] ret[137] bDeviceProtocol     00
+[2018/04/24 14:23:33] ret[138] bMaxEP0Size         09
+[2018/04/24 14:23:33] ret[139] wVendorID         0781
+[2018/04/24 14:23:33] ret[140] wProductID        5597
+[2018/04/24 14:23:33] ret[141] wDeviceID         0100
+[2018/04/24 14:23:33] ret[142] iManufacturer       01 = SanDisk
+[2018/04/24 14:23:33] ret[143] iProduct            02 = Cruzer Glide 3.0
+[2018/04/24 14:23:33] ret[144] iSerialNumber       03 = 4C530001260917104063
+[2018/04/24 14:23:33] ret[145] bNumConfigurations  01
+[2018/04/24 14:23:33] ret[146] Port[19] = No device connected
+[2018/04/24 14:23:33] ret[147] Port[20] = No device connected
+[2018/04/24 14:23:33] ret[148] Port[21] = I/O device connected, Device Bus Speed:   High
+[2018/04/24 14:23:33] ret[149] Device Descriptor
+[2018/04/24 14:23:33] ret[150] bLength             12
+[2018/04/24 14:23:33] ret[151] bDescriptorType     01
+[2018/04/24 14:23:33] ret[152] bcdUSB            0300
+[2018/04/24 14:23:33] ret[153] bDeviceClass        00
+[2018/04/24 14:23:33] ret[154] bDeviceSubClass     00
+[2018/04/24 14:23:33] ret[155] bDeviceProtocol     00
+[2018/04/24 14:23:33] ret[156] bMaxEP0Size         09
+[2018/04/24 14:23:33] ret[157] wVendorID         413c
+[2018/04/24 14:23:33] ret[158] wProductID        a101
+[2018/04/24 14:23:33] ret[159] wDeviceID         0000
+[2018/04/24 14:23:33] ret[160] iManufacturer       01 = DELL
+[2018/04/24 14:23:33] ret[161] iProduct            02 = Internal Dual SD
+[2018/04/24 14:23:33] ret[162] iSerialNumber       03 = 012345678901
+[2018/04/24 14:23:33] ret[163] bNumConfigurations  01
+[2018/04/24 14:23:33] ret[164] Port[22] = No device connected
+[2018/04/24 14:23:33] ret[165] Port[23] = No device connected
+[2018/04/24 14:23:33] ret[166] Port[24] = No device connected
+[2018/04/24 14:23:33] ret[167] Port[25] = No device connected
+[2018/04/24 14:23:33] ret[168] Port[26] = No device connected
+[2018/04/24 14:23:33] ret[169] Closing root hub handle 64
+[2018/04/24 14:23:33] ret[170] Closing host controller handle 60
+[2018/04/24 14:23:33] ret[171] 
+[2018/04/24 14:23:33] ret[172] 
+[2018/04/24 14:23:33] ret[173] USB Device Existing Detection:
+[2018/04/24 14:23:33] ret[174] =========================================================
+[2018/04/24 14:23:33] ret[175] Measured     Expected
+[2018/04/24 14:23:33] ret[176] --------     --------
+[2018/04/24 14:23:33] ret[177] #Hubs                4             4
+[2018/04/24 14:23:33] ret[178] #I/O Devices         7             7
+[2018/04/24 14:23:33] ret[179] =========================================================
+[2018/04/24 14:23:33] ret[180] 
+[2018/04/24 14:23:33] ret[181] USB Device Speed Detection:
+[2018/04/24 14:23:33] ret[182] =========================================================
+[2018/04/24 14:23:33] ret[183] Measured     Expected
+[2018/04/24 14:23:33] ret[184] --------     --------
+[2018/04/24 14:23:33] ret[185] #Low Speed           1             1
+[2018/04/24 14:23:33] ret[186] #Full Speed          2             2
+[2018/04/24 14:23:33] ret[187] #High Speed          8             8
+[2018/04/24 14:23:33] ret[188] =========================================================
+[2018/04/24 14:23:33] ret[189] 
+[2018/04/24 14:23:33] ret[190] 
+[2018/04/24 14:23:33] ret[191] PASS!Final RUSB.EXE Test Status: 0x00000000
+[2018/04/24 14:23:33] Check_USB_Device Pass
+[2018/04/24 14:23:34] Test Item: Check Onboard/FIO USB3.0 Device (Check_USB3_Device)
+[2018/04/24 14:23:34] Input OS Command: Disk.exe -conf
+[2018/04/24 14:24:30] ret[00] Disk module x64 factory release 6085.5
+[2018/04/24 14:24:30] ret[01] Device Discovery in Progress
+[2018/04/24 14:24:30] ret[02] Device Discovery Complete
+[2018/04/24 14:24:30] ret[03] **Device**
+[2018/04/24 14:24:30] ret[04] DeviceName              = HDDCONTROLLER0
+[2018/04/24 14:24:30] ret[05] DeviceMnemonic          = CNTLRHDD:0
+[2018/04/24 14:24:30] ret[06] DeviceTypeString        = CNTLRHDD
+[2018/04/24 14:24:30] ret[07] Commodity               = controller_card
+[2018/04/24 14:24:30] ret[08] Model                   = Standard SATA AHCI Controller
+[2018/04/24 14:24:30] ret[09] ControllerToken         = Standard SATA AHCI Controller
+[2018/04/24 14:24:30] ret[10] ControllerID            = 0x00000600
+[2018/04/24 14:24:30] ret[11] ControllerNumber        = 0
+[2018/04/24 14:24:30] ret[12] Interface               = SATA
+[2018/04/24 14:24:30] ret[13] PCIID                   = 8086 a1d2 1028 07cc
+[2018/04/24 14:24:30] ret[14] VendorId                = 8086
+[2018/04/24 14:24:30] ret[15] DeviceId                = a1d2
+[2018/04/24 14:24:30] ret[16] SubVendorId             = 1028
+[2018/04/24 14:24:30] ret[17] SubSystemId             = 07cc
+[2018/04/24 14:24:30] ret[18] ControllerInOrExt       = Internal
+[2018/04/24 14:24:30] ret[19] PortCount               = 0
+[2018/04/24 14:24:30] ret[20] 
+[2018/04/24 14:24:30] ret[21] 
+[2018/04/24 14:24:30] ret[22] **Device**
+[2018/04/24 14:24:30] ret[23] DeviceName              = HDD0
+[2018/04/24 14:24:30] ret[24] DeviceMnemonic          = HDD:0
+[2018/04/24 14:24:30] ret[25] DeviceMnemonic          = HDDSATA:0
+[2018/04/24 14:24:30] ret[26] DeviceMnemonic          = HDDATA:0
+[2018/04/24 14:24:30] ret[27] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[28] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[29] mSATADevice             = No
+[2018/04/24 14:24:30] ret[30] PhysicalDrive           = 0
+[2018/04/24 14:24:30] ret[31] Model                   = HGST HUS726060ALE614
+[2018/04/24 14:24:30] ret[32] Vendor                  = HGST
+[2018/04/24 14:24:30] ret[33] FwRev                   = APGNW517
+[2018/04/24 14:24:30] ret[34] SerialNumber            = NAG95YJY
+[2018/04/24 14:24:30] ret[35] Capacity                = 6001175MB
+[2018/04/24 14:24:30] ret[36] ControllerId            = 0x00000600
+[2018/04/24 14:24:30] ret[37] ControllerPciId         = 8086a1d2102807cc
+[2018/04/24 14:24:30] ret[38] ControllerPortNumber    = 1
+[2018/04/24 14:24:30] ret[39] Slot                    = 2
+[2018/04/24 14:24:30] ret[40] ControllerNumber        = 0
+[2018/04/24 14:24:30] ret[41] DriveChannelID          = 0:2
+[2018/04/24 14:24:30] ret[42] MotherBoardSlot         = 2
+[2018/04/24 14:24:30] ret[43] Width                   = 3500
+[2018/04/24 14:24:30] ret[44] BusType                 = SATA
+[2018/04/24 14:24:30] ret[45] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[46] SpindleSpeed            = 7200
+[2018/04/24 14:24:30] ret[47] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[48] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[49] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[50] DriveSectorType         = 512e
+[2018/04/24 14:24:30] ret[51] GListCount              = 0
+[2018/04/24 14:24:30] ret[52] 
+[2018/04/24 14:24:30] ret[53] 
+[2018/04/24 14:24:30] ret[54] **Device**
+[2018/04/24 14:24:30] ret[55] DeviceName              = HDD1
+[2018/04/24 14:24:30] ret[56] DeviceMnemonic          = HDD:1
+[2018/04/24 14:24:30] ret[57] DeviceMnemonic          = HDDSATA:1
+[2018/04/24 14:24:30] ret[58] DeviceMnemonic          = HDDATA:1
+[2018/04/24 14:24:30] ret[59] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[60] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[61] mSATADevice             = No
+[2018/04/24 14:24:30] ret[62] PhysicalDrive           = 1
+[2018/04/24 14:24:30] ret[63] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:24:30] ret[64] Vendor                  = Hitachi
+[2018/04/24 14:24:30] ret[65] FwRev                   = MK7OAA10
+[2018/04/24 14:24:30] ret[66] SerialNumber            = MK0A31YHKU661A
+[2018/04/24 14:24:30] ret[67] Capacity                = 2000398MB
+[2018/04/24 14:24:30] ret[68] ControllerId            = 0x00000600
+[2018/04/24 14:24:30] ret[69] ControllerPciId         = 8086a1d2102807cc
+[2018/04/24 14:24:30] ret[70] ControllerPortNumber    = 2
+[2018/04/24 14:24:30] ret[71] Slot                    = 3
+[2018/04/24 14:24:30] ret[72] ControllerNumber        = 0
+[2018/04/24 14:24:30] ret[73] DriveChannelID          = 0:3
+[2018/04/24 14:24:30] ret[74] MotherBoardSlot         = 3
+[2018/04/24 14:24:30] ret[75] Width                   = 3500
+[2018/04/24 14:24:30] ret[76] BusType                 = SATA
+[2018/04/24 14:24:30] ret[77] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[78] SpindleSpeed            = 7200
+[2018/04/24 14:24:30] ret[79] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[80] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[81] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[82] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[83] GListCount              = 0
+[2018/04/24 14:24:30] ret[84] 
+[2018/04/24 14:24:30] ret[85] 
+[2018/04/24 14:24:30] ret[86] **Device**
+[2018/04/24 14:24:30] ret[87] DeviceName              = HDD2
+[2018/04/24 14:24:30] ret[88] DeviceMnemonic          = HDD:2
+[2018/04/24 14:24:30] ret[89] DeviceMnemonic          = HDDSATA:2
+[2018/04/24 14:24:30] ret[90] DeviceMnemonic          = HDDATA:2
+[2018/04/24 14:24:30] ret[91] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[92] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[93] mSATADevice             = No
+[2018/04/24 14:24:30] ret[94] PhysicalDrive           = 2
+[2018/04/24 14:24:30] ret[95] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:24:30] ret[96] Vendor                  = Hitachi
+[2018/04/24 14:24:30] ret[97] FwRev                   = MK7OAA10
+[2018/04/24 14:24:30] ret[98] SerialNumber            = MK0A31YHKVH9DA
+[2018/04/24 14:24:30] ret[99] Capacity                = 2000398MB
+[2018/04/24 14:24:30] ret[100] ControllerId            = 0x00000600
+[2018/04/24 14:24:30] ret[101] ControllerPciId         = 8086a1d2102807cc
+[2018/04/24 14:24:30] ret[102] ControllerPortNumber    = 3
+[2018/04/24 14:24:30] ret[103] Slot                    = 4
+[2018/04/24 14:24:30] ret[104] ControllerNumber        = 0
+[2018/04/24 14:24:30] ret[105] DriveChannelID          = 0:4
+[2018/04/24 14:24:30] ret[106] MotherBoardSlot         = 4
+[2018/04/24 14:24:30] ret[107] Width                   = 3500
+[2018/04/24 14:24:30] ret[108] BusType                 = SATA
+[2018/04/24 14:24:30] ret[109] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[110] SpindleSpeed            = 7200
+[2018/04/24 14:24:30] ret[111] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[112] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[113] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[114] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[115] GListCount              = 0
+[2018/04/24 14:24:30] ret[116] 
+[2018/04/24 14:24:30] ret[117] 
+[2018/04/24 14:24:30] ret[118] **Device**
+[2018/04/24 14:24:30] ret[119] DeviceName              = HDD3
+[2018/04/24 14:24:30] ret[120] DeviceMnemonic          = HDD:3
+[2018/04/24 14:24:30] ret[121] DeviceMnemonic          = HDDSATA:3
+[2018/04/24 14:24:30] ret[122] DeviceMnemonic          = HDDATA:3
+[2018/04/24 14:24:30] ret[123] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[124] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[125] mSATADevice             = No
+[2018/04/24 14:24:30] ret[126] PhysicalDrive           = 3
+[2018/04/24 14:24:30] ret[127] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:24:30] ret[128] Vendor                  = Hitachi
+[2018/04/24 14:24:30] ret[129] FwRev                   = MK7OAA10
+[2018/04/24 14:24:30] ret[130] SerialNumber            = MK0A31YHKWTVPD
+[2018/04/24 14:24:30] ret[131] Capacity                = 2000398MB
+[2018/04/24 14:24:30] ret[132] ControllerId            = 0x00000600
+[2018/04/24 14:24:30] ret[133] ControllerPciId         = 8086a1d2102807cc
+[2018/04/24 14:24:30] ret[134] ControllerPortNumber    = 4
+[2018/04/24 14:24:30] ret[135] Slot                    = 5
+[2018/04/24 14:24:30] ret[136] ControllerNumber        = 0
+[2018/04/24 14:24:30] ret[137] DriveChannelID          = 0:5
+[2018/04/24 14:24:30] ret[138] MotherBoardSlot         = 5
+[2018/04/24 14:24:30] ret[139] Width                   = 3500
+[2018/04/24 14:24:30] ret[140] BusType                 = SATA
+[2018/04/24 14:24:30] ret[141] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[142] SpindleSpeed            = 7200
+[2018/04/24 14:24:30] ret[143] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[144] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[145] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[146] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[147] GListCount              = 0
+[2018/04/24 14:24:30] ret[148] 
+[2018/04/24 14:24:30] ret[149] 
+[2018/04/24 14:24:30] ret[150] **Device**
+[2018/04/24 14:24:30] ret[151] DeviceName              = HDDCONTROLLER1
+[2018/04/24 14:24:30] ret[152] DeviceMnemonic          = CNTLRHDD:1
+[2018/04/24 14:24:30] ret[153] DeviceTypeString        = CNTLRHDD
+[2018/04/24 14:24:30] ret[154] Commodity               = controller_card
+[2018/04/24 14:24:30] ret[155] Model                   = Standard SATA AHCI Controller
+[2018/04/24 14:24:30] ret[156] ControllerToken         = Standard SATA AHCI Controller
+[2018/04/24 14:24:30] ret[157] ControllerID            = 0x00000601
+[2018/04/24 14:24:30] ret[158] ControllerNumber        = 1
+[2018/04/24 14:24:30] ret[159] Interface               = SATA
+[2018/04/24 14:24:30] ret[160] PCIID                   = 8086 a182 1028 07cc
+[2018/04/24 14:24:30] ret[161] VendorId                = 8086
+[2018/04/24 14:24:30] ret[162] DeviceId                = a182
+[2018/04/24 14:24:30] ret[163] SubVendorId             = 1028
+[2018/04/24 14:24:30] ret[164] SubSystemId             = 07cc
+[2018/04/24 14:24:30] ret[165] ControllerInOrExt       = Internal
+[2018/04/24 14:24:30] ret[166] PortCount               = 0
+[2018/04/24 14:24:30] ret[167] 
+[2018/04/24 14:24:30] ret[168] 
+[2018/04/24 14:24:30] ret[169] **Device**
+[2018/04/24 14:24:30] ret[170] DeviceName              = HDD4
+[2018/04/24 14:24:30] ret[171] DeviceMnemonic          = HDD:4
+[2018/04/24 14:24:30] ret[172] DeviceMnemonic          = HDDSATA:4
+[2018/04/24 14:24:30] ret[173] DeviceMnemonic          = HDDATA:4
+[2018/04/24 14:24:30] ret[174] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[175] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[176] mSATADevice             = No
+[2018/04/24 14:24:30] ret[177] PhysicalDrive           = 4
+[2018/04/24 14:24:30] ret[178] Model                   = Hitachi HUA722010CLA330
+[2018/04/24 14:24:30] ret[179] Vendor                  = Hitachi
+[2018/04/24 14:24:30] ret[180] FwRev                   = JP4OA3EA
+[2018/04/24 14:24:30] ret[181] SerialNumber            = JPW9J0N110M52V
+[2018/04/24 14:24:30] ret[182] Capacity                = 1000204MB
+[2018/04/24 14:24:30] ret[183] ControllerId            = 0x00000601
+[2018/04/24 14:24:30] ret[184] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:24:30] ret[185] ControllerPortNumber    = 0
+[2018/04/24 14:24:30] ret[186] Slot                    = 0
+[2018/04/24 14:24:30] ret[187] ControllerNumber        = 1
+[2018/04/24 14:24:30] ret[188] DriveChannelID          = 1:0
+[2018/04/24 14:24:30] ret[189] MotherBoardSlot         = 0
+[2018/04/24 14:24:30] ret[190] Width                   = 3500
+[2018/04/24 14:24:30] ret[191] BusType                 = SATA
+[2018/04/24 14:24:30] ret[192] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[193] SpindleSpeed            = 7200
+[2018/04/24 14:24:30] ret[194] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[195] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[196] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[197] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[198] GListCount              = 0
+[2018/04/24 14:24:30] ret[199] 
+[2018/04/24 14:24:30] ret[200] 
+[2018/04/24 14:24:30] ret[201] **Device**
+[2018/04/24 14:24:30] ret[202] DeviceName              = HDD5
+[2018/04/24 14:24:30] ret[203] DeviceMnemonic          = HDD:5
+[2018/04/24 14:24:30] ret[204] DeviceMnemonic          = HDDSATA:5
+[2018/04/24 14:24:30] ret[205] DeviceMnemonic          = HDDATA:5
+[2018/04/24 14:24:30] ret[206] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[207] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[208] mSATADevice             = No
+[2018/04/24 14:24:30] ret[209] PhysicalDrive           = 5
+[2018/04/24 14:24:30] ret[210] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:24:30] ret[211] Vendor                  = Hitachi
+[2018/04/24 14:24:30] ret[212] FwRev                   = MK7OAA10
+[2018/04/24 14:24:30] ret[213] SerialNumber            = MK0A31YVG02UYA
+[2018/04/24 14:24:30] ret[214] Capacity                = 2000398MB
+[2018/04/24 14:24:30] ret[215] ControllerId            = 0x00000601
+[2018/04/24 14:24:30] ret[216] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:24:30] ret[217] ControllerPortNumber    = 0
+[2018/04/24 14:24:30] ret[218] Slot                    = 1
+[2018/04/24 14:24:30] ret[219] ControllerNumber        = 1
+[2018/04/24 14:24:30] ret[220] DriveChannelID          = 1:1
+[2018/04/24 14:24:30] ret[221] MotherBoardSlot         = 1
+[2018/04/24 14:24:30] ret[222] Width                   = 3500
+[2018/04/24 14:24:30] ret[223] BusType                 = SATA
+[2018/04/24 14:24:30] ret[224] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[225] SpindleSpeed            = 7200
+[2018/04/24 14:24:30] ret[226] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[227] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[228] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[229] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[230] GListCount              = 1818
+[2018/04/24 14:24:30] ret[231] 
+[2018/04/24 14:24:30] ret[232] 
+[2018/04/24 14:24:30] ret[233] **Device**
+[2018/04/24 14:24:30] ret[234] DeviceName              = HDD6
+[2018/04/24 14:24:30] ret[235] DeviceMnemonic          = HDD:6
+[2018/04/24 14:24:30] ret[236] DeviceMnemonic          = HDDSATA:6
+[2018/04/24 14:24:30] ret[237] DeviceMnemonic          = HDDATA:6
+[2018/04/24 14:24:30] ret[238] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[239] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[240] mSATADevice             = No
+[2018/04/24 14:24:30] ret[241] PhysicalDrive           = 6
+[2018/04/24 14:24:30] ret[242] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:24:30] ret[243] Vendor                  = Hitachi
+[2018/04/24 14:24:30] ret[244] FwRev                   = MK7OAA10
+[2018/04/24 14:24:30] ret[245] SerialNumber            = MK0A31YHKYJ7VA
+[2018/04/24 14:24:30] ret[246] Capacity                = 2000398MB
+[2018/04/24 14:24:30] ret[247] ControllerId            = 0x00000601
+[2018/04/24 14:24:30] ret[248] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:24:30] ret[249] ControllerPortNumber    = 1
+[2018/04/24 14:24:30] ret[250] Slot                    = 2
+[2018/04/24 14:24:30] ret[251] ControllerNumber        = 1
+[2018/04/24 14:24:30] ret[252] DriveChannelID          = 1:2
+[2018/04/24 14:24:30] ret[253] MotherBoardSlot         = 2
+[2018/04/24 14:24:30] ret[254] Width                   = 3500
+[2018/04/24 14:24:30] ret[255] BusType                 = SATA
+[2018/04/24 14:24:30] ret[256] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[257] SpindleSpeed            = 7200
+[2018/04/24 14:24:30] ret[258] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[259] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[260] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[261] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[262] GListCount              = 0
+[2018/04/24 14:24:30] ret[263] 
+[2018/04/24 14:24:30] ret[264] 
+[2018/04/24 14:24:30] ret[265] **Device**
+[2018/04/24 14:24:30] ret[266] DeviceName              = HDD7
+[2018/04/24 14:24:30] ret[267] DeviceMnemonic          = HDD:7
+[2018/04/24 14:24:30] ret[268] DeviceMnemonic          = HDDSATA:7
+[2018/04/24 14:24:30] ret[269] DeviceMnemonic          = HDDATA:7
+[2018/04/24 14:24:30] ret[270] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[271] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[272] mSATADevice             = No
+[2018/04/24 14:24:30] ret[273] PhysicalDrive           = 7
+[2018/04/24 14:24:30] ret[274] Model                   = Hitachi HUA723020ALA640
+[2018/04/24 14:24:30] ret[275] Vendor                  = Hitachi
+[2018/04/24 14:24:30] ret[276] FwRev                   = MK7OAA10
+[2018/04/24 14:24:30] ret[277] SerialNumber            = MK0A31YHKWZAVA
+[2018/04/24 14:24:30] ret[278] Capacity                = 2000398MB
+[2018/04/24 14:24:30] ret[279] ControllerId            = 0x00000601
+[2018/04/24 14:24:30] ret[280] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:24:30] ret[281] ControllerPortNumber    = 2
+[2018/04/24 14:24:30] ret[282] Slot                    = 3
+[2018/04/24 14:24:30] ret[283] ControllerNumber        = 1
+[2018/04/24 14:24:30] ret[284] DriveChannelID          = 1:3
+[2018/04/24 14:24:30] ret[285] MotherBoardSlot         = 3
+[2018/04/24 14:24:30] ret[286] Width                   = 3500
+[2018/04/24 14:24:30] ret[287] BusType                 = SATA
+[2018/04/24 14:24:30] ret[288] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[289] SpindleSpeed            = 7200
+[2018/04/24 14:24:30] ret[290] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[291] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[292] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[293] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[294] GListCount              = 0
+[2018/04/24 14:24:30] ret[295] 
+[2018/04/24 14:24:30] ret[296] 
+[2018/04/24 14:24:30] ret[297] **Device**
+[2018/04/24 14:24:30] ret[298] DeviceName              = HDD8
+[2018/04/24 14:24:30] ret[299] DeviceMnemonic          = HDD:8
+[2018/04/24 14:24:30] ret[300] DeviceMnemonic          = HDDSATA:8
+[2018/04/24 14:24:30] ret[301] DeviceMnemonic          = HDDATA:8
+[2018/04/24 14:24:30] ret[302] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[303] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[304] mSATADevice             = No
+[2018/04/24 14:24:30] ret[305] PhysicalDrive           = 8
+[2018/04/24 14:24:30] ret[306] Model                   = Hitachi HUA722010CLA330
+[2018/04/24 14:24:30] ret[307] Vendor                  = Hitachi
+[2018/04/24 14:24:30] ret[308] FwRev                   = JP4OA3EA
+[2018/04/24 14:24:30] ret[309] SerialNumber            = JPW9J0N110M3UV
+[2018/04/24 14:24:30] ret[310] Capacity                = 1000204MB
+[2018/04/24 14:24:30] ret[311] ControllerId            = 0x00000601
+[2018/04/24 14:24:30] ret[312] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:24:30] ret[313] ControllerPortNumber    = 3
+[2018/04/24 14:24:30] ret[314] Slot                    = 4
+[2018/04/24 14:24:30] ret[315] ControllerNumber        = 1
+[2018/04/24 14:24:30] ret[316] DriveChannelID          = 1:4
+[2018/04/24 14:24:30] ret[317] MotherBoardSlot         = 4
+[2018/04/24 14:24:30] ret[318] Width                   = 3500
+[2018/04/24 14:24:30] ret[319] BusType                 = SATA
+[2018/04/24 14:24:30] ret[320] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[321] SpindleSpeed            = 7200
+[2018/04/24 14:24:30] ret[322] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[323] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[324] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[325] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[326] GListCount              = 2
+[2018/04/24 14:24:30] ret[327] 
+[2018/04/24 14:24:30] ret[328] 
+[2018/04/24 14:24:30] ret[329] **Device**
+[2018/04/24 14:24:30] ret[330] DeviceName              = HDD9
+[2018/04/24 14:24:30] ret[331] DeviceMnemonic          = HDD:9
+[2018/04/24 14:24:30] ret[332] DeviceMnemonic          = HDDSATA:9
+[2018/04/24 14:24:30] ret[333] DeviceMnemonic          = HDDATA:9
+[2018/04/24 14:24:30] ret[334] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[335] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[336] mSATADevice             = No
+[2018/04/24 14:24:30] ret[337] PhysicalDrive           = 9
+[2018/04/24 14:24:30] ret[338] Model                   = ST320LT012-1DG14C
+[2018/04/24 14:24:30] ret[339] Vendor                  = SEAGATE
+[2018/04/24 14:24:30] ret[340] FwRev                   = 0002SDM1
+[2018/04/24 14:24:30] ret[341] SerialNumber            = WBY9J60B
+[2018/04/24 14:24:30] ret[342] PPID                    = CN0M4VY5SGW0072Q001KA02
+[2018/04/24 14:24:30] ret[343] Capacity                = 320072MB
+[2018/04/24 14:24:30] ret[344] ControllerId            = 0x00000601
+[2018/04/24 14:24:30] ret[345] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:24:30] ret[346] ControllerPortNumber    = 4
+[2018/04/24 14:24:30] ret[347] Slot                    = 5
+[2018/04/24 14:24:30] ret[348] ControllerNumber        = 1
+[2018/04/24 14:24:30] ret[349] DriveChannelID          = 1:5
+[2018/04/24 14:24:30] ret[350] MotherBoardSlot         = 5
+[2018/04/24 14:24:30] ret[351] Width                   = 2500
+[2018/04/24 14:24:30] ret[352] BusType                 = SATA
+[2018/04/24 14:24:30] ret[353] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[354] SpindleSpeed            = 5400
+[2018/04/24 14:24:30] ret[355] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[356] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[357] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[358] DriveSectorType         = 512e
+[2018/04/24 14:24:30] ret[359] GListCount              = 16
+[2018/04/24 14:24:30] ret[360] 
+[2018/04/24 14:24:30] ret[361] 
+[2018/04/24 14:24:30] ret[362] **Device**
+[2018/04/24 14:24:30] ret[363] DeviceName              = HDD10
+[2018/04/24 14:24:30] ret[364] DeviceMnemonic          = HDD:10
+[2018/04/24 14:24:30] ret[365] DeviceMnemonic          = HDDSATA:10
+[2018/04/24 14:24:30] ret[366] DeviceMnemonic          = HDDATA:10
+[2018/04/24 14:24:30] ret[367] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[368] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[369] mSATADevice             = No
+[2018/04/24 14:24:30] ret[370] PhysicalDrive           = 10
+[2018/04/24 14:24:30] ret[371] Model                   = Hitachi HUA722010CLA330
+[2018/04/24 14:24:30] ret[372] Vendor                  = Hitachi
+[2018/04/24 14:24:30] ret[373] FwRev                   = JP4OA3EA
+[2018/04/24 14:24:30] ret[374] SerialNumber            = JPW9J0N110DLEV
+[2018/04/24 14:24:30] ret[375] Capacity                = 1000204MB
+[2018/04/24 14:24:30] ret[376] ControllerId            = 0x00000601
+[2018/04/24 14:24:30] ret[377] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:24:30] ret[378] ControllerPortNumber    = 5
+[2018/04/24 14:24:30] ret[379] Slot                    = 6
+[2018/04/24 14:24:30] ret[380] ControllerNumber        = 1
+[2018/04/24 14:24:30] ret[381] DriveChannelID          = 1:6
+[2018/04/24 14:24:30] ret[382] MotherBoardSlot         = 6
+[2018/04/24 14:24:30] ret[383] Width                   = 3500
+[2018/04/24 14:24:30] ret[384] BusType                 = SATA
+[2018/04/24 14:24:30] ret[385] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[386] SpindleSpeed            = 7200
+[2018/04/24 14:24:30] ret[387] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[388] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[389] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[390] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[391] GListCount              = 0
+[2018/04/24 14:24:30] ret[392] 
+[2018/04/24 14:24:30] ret[393] 
+[2018/04/24 14:24:30] ret[394] **Device**
+[2018/04/24 14:24:30] ret[395] DeviceName              = HDD11
+[2018/04/24 14:24:30] ret[396] DeviceMnemonic          = HDD:11
+[2018/04/24 14:24:30] ret[397] DeviceMnemonic          = HDDSATA:11
+[2018/04/24 14:24:30] ret[398] DeviceMnemonic          = HDDATA:11
+[2018/04/24 14:24:30] ret[399] DeviceTypeString        = HDDSATA
+[2018/04/24 14:24:30] ret[400] Commodity               = hard_drive
+[2018/04/24 14:24:30] ret[401] mSATADevice             = No
+[2018/04/24 14:24:30] ret[402] PhysicalDrive           = 11
+[2018/04/24 14:24:30] ret[403] Model                   = ST32000644NS
+[2018/04/24 14:24:30] ret[404] Vendor                  = SEAGATE
+[2018/04/24 14:24:30] ret[405] FwRev                   = KA06
+[2018/04/24 14:24:30] ret[406] SerialNumber            = 9WM6XKCQ
+[2018/04/24 14:24:30] ret[407] PPID                    = TH0VGY1F2123318200T4A02
+[2018/04/24 14:24:30] ret[408] Capacity                = 2000398MB
+[2018/04/24 14:24:30] ret[409] ControllerId            = 0x00000601
+[2018/04/24 14:24:30] ret[410] ControllerPciId         = 8086a182102807cc
+[2018/04/24 14:24:30] ret[411] ControllerPortNumber    = 6
+[2018/04/24 14:24:30] ret[412] Slot                    = 7
+[2018/04/24 14:24:30] ret[413] ControllerNumber        = 1
+[2018/04/24 14:24:30] ret[414] DriveChannelID          = 1:7
+[2018/04/24 14:24:30] ret[415] MotherBoardSlot         = 7
+[2018/04/24 14:24:30] ret[416] Width                   = 3500
+[2018/04/24 14:24:30] ret[417] BusType                 = SATA
+[2018/04/24 14:24:30] ret[418] Interface               = SERIAL
+[2018/04/24 14:24:30] ret[419] SpindleSpeed            = 7200
+[2018/04/24 14:24:30] ret[420] DevInitPowManEnabled    = No
+[2018/04/24 14:24:30] ret[421] WriteCache              = Enabled
+[2018/04/24 14:24:30] ret[422] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[423] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[424] GListCount              = 1
+[2018/04/24 14:24:30] ret[425] 
+[2018/04/24 14:24:30] ret[426] 
+[2018/04/24 14:24:30] ret[427] **Device**
+[2018/04/24 14:24:30] ret[428] DeviceName              = HDDUSB0
+[2018/04/24 14:24:30] ret[429] DeviceMnemonic          = HDDUSB:0
+[2018/04/24 14:24:30] ret[430] DeviceTypeString        = HDDUSB
+[2018/04/24 14:24:30] ret[431] Commodity               = Not_Applicable
+[2018/04/24 14:24:30] ret[432] mSATADevice             = No
+[2018/04/24 14:24:30] ret[433] PhysicalDrive           = 12
+[2018/04/24 14:24:30] ret[434] Model                   = Cruzer Glide 3.0
+[2018/04/24 14:24:30] ret[435] Vendor                  = SanDisk
+[2018/04/24 14:24:30] ret[436] FwRev                   = 1.00
+[2018/04/24 14:24:30] ret[437] SerialNumber            = 4C530001260917104063
+[2018/04/24 14:24:30] ret[438] Capacity                = 15669MB
+[2018/04/24 14:24:30] ret[439] BusType                 = USB
+[2018/04/24 14:24:30] ret[440] Interface               = USB
+[2018/04/24 14:24:30] ret[441] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[442] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[443] 
+[2018/04/24 14:24:30] ret[444] 
+[2018/04/24 14:24:30] ret[445] **Device**
+[2018/04/24 14:24:30] ret[446] DeviceName              = HDDUSB1
+[2018/04/24 14:24:30] ret[447] DeviceMnemonic          = HDDUSB:1
+[2018/04/24 14:24:30] ret[448] DeviceTypeString        = HDDUSB
+[2018/04/24 14:24:30] ret[449] Commodity               = Not_Applicable
+[2018/04/24 14:24:30] ret[450] mSATADevice             = No
+[2018/04/24 14:24:30] ret[451] PhysicalDrive           = 13
+[2018/04/24 14:24:30] ret[452] Model                   = IDSDM
+[2018/04/24 14:24:30] ret[453] Vendor                  = DELL
+[2018/04/24 14:24:30] ret[454] FwRev                   = 0001
+[2018/04/24 14:24:30] ret[455] SerialNumber            = 012345678901
+[2018/04/24 14:24:30] ret[456] Capacity                = 1028MB
+[2018/04/24 14:24:30] ret[457] BusType                 = USB
+[2018/04/24 14:24:30] ret[458] Interface               = USB
+[2018/04/24 14:24:30] ret[459] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[460] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[461] 
+[2018/04/24 14:24:30] ret[462] 
+[2018/04/24 14:24:30] ret[463] **Device**
+[2018/04/24 14:24:30] ret[464] DeviceName              = HDDUSB2
+[2018/04/24 14:24:30] ret[465] DeviceMnemonic          = HDDUSB:2
+[2018/04/24 14:24:30] ret[466] DeviceTypeString        = HDDUSB
+[2018/04/24 14:24:30] ret[467] Commodity               = Not_Applicable
+[2018/04/24 14:24:30] ret[468] mSATADevice             = No
+[2018/04/24 14:24:30] ret[469] PhysicalDrive           = 14
+[2018/04/24 14:24:30] ret[470] Model                   = Cruzer Glide 3.0
+[2018/04/24 14:24:30] ret[471] Vendor                  = SanDisk
+[2018/04/24 14:24:30] ret[472] FwRev                   = 1.00
+[2018/04/24 14:24:30] ret[473] SerialNumber            = 4C530001210917104063
+[2018/04/24 14:24:30] ret[474] Capacity                = 15669MB
+[2018/04/24 14:24:30] ret[475] BusType                 = USB
+[2018/04/24 14:24:30] ret[476] Interface               = USB
+[2018/04/24 14:24:30] ret[477] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[478] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[479] 
+[2018/04/24 14:24:30] ret[480] 
+[2018/04/24 14:24:30] ret[481] **Device**
+[2018/04/24 14:24:30] ret[482] DeviceName              = HDDUSB3
+[2018/04/24 14:24:30] ret[483] DeviceMnemonic          = HDDUSB:3
+[2018/04/24 14:24:30] ret[484] DeviceTypeString        = HDDUSB
+[2018/04/24 14:24:30] ret[485] Commodity               = Not_Applicable
+[2018/04/24 14:24:30] ret[486] mSATADevice             = No
+[2018/04/24 14:24:30] ret[487] PhysicalDrive           = 15
+[2018/04/24 14:24:30] ret[488] Model                   = Cruzer Glide 3.0
+[2018/04/24 14:24:30] ret[489] Vendor                  = SanDisk
+[2018/04/24 14:24:30] ret[490] FwRev                   = 1.00
+[2018/04/24 14:24:30] ret[491] SerialNumber            = 4C530001080917104115
+[2018/04/24 14:24:30] ret[492] Capacity                = 15669MB
+[2018/04/24 14:24:30] ret[493] BusType                 = USB
+[2018/04/24 14:24:30] ret[494] Interface               = USB
+[2018/04/24 14:24:30] ret[495] EncryptingDrive         = NO
+[2018/04/24 14:24:30] ret[496] DriveSectorType         = 512n
+[2018/04/24 14:24:30] ret[497] 
+[2018/04/24 14:24:30] ret[498] 
+[2018/04/24 14:24:30] Check_USB3_Device Pass
+[2018/04/24 14:24:31] Test Item: Check Serial Port Information (Check_Serial_Info)
+[2018/04/24 14:24:31] Input OS Command: Serial.exe -conf
+[2018/04/24 14:24:37] ret[00] Serial module x64 factory release 6085.5
+[2018/04/24 14:24:37] ret[01] **Device**
+[2018/04/24 14:24:37] ret[02] DeviceName              = Serial Device
+[2018/04/24 14:24:37] ret[03] DeviceMnemonic          = SERIAL:0
+[2018/04/24 14:24:37] ret[04] PortID                  = COM1
+[2018/04/24 14:24:37] ret[05] PortAddress             = 3f8
+[2018/04/24 14:24:37] ret[06] 
+[2018/04/24 14:24:37] ret[07] 
+[2018/04/24 14:24:37] ret[08] **Device**
+[2018/04/24 14:24:37] ret[09] DeviceName              = Serial Device
+[2018/04/24 14:24:37] ret[10] DeviceMnemonic          = SERIAL:1
+[2018/04/24 14:24:37] ret[11] PortID                  = COM2
+[2018/04/24 14:24:37] ret[12] PortAddress             = 2f8
+[2018/04/24 14:24:37] ret[13] 
+[2018/04/24 14:24:37] ret[14] 
+[2018/04/24 14:24:37] ret[15] **Device**
+[2018/04/24 14:24:37] ret[16] DeviceName              = Serial Device
+[2018/04/24 14:24:37] ret[17] DeviceMnemonic          = SERIAL:2
+[2018/04/24 14:24:37] ret[18] PortID                  = COM3
+[2018/04/24 14:24:37] ret[19] PortAddress             = 3e8
+[2018/04/24 14:24:37] ret[20] 
+[2018/04/24 14:24:37] ret[21] 
+[2018/04/24 14:24:37] Check_Serial_Info Pass
+[2018/04/24 14:24:38] Test Item: DDIAGS_Serial_Test (DDIAGS_Serial_Test)
+[2018/04/24 14:24:38] Input OS Command: Serial.exe -d:SERIAL:0
+[2018/04/24 14:24:46] ret[00] Serial module x64 factory release 6085.5
+[2018/04/24 14:24:46] ret[01] 
+[2018/04/24 14:24:46] ret[02] (Testing Serial Device)
+[2018/04/24 14:24:46] ret[03] Serial Port Internal Loop Back Test: COM1
+[2018/04/24 14:24:46] ret[04] 
+[2018/04/24 14:24:46] ret[05] Verifying Modem Control ...
+[2018/04/24 14:24:46] ret[06] Modem Control Verification Passed
+[2018/04/24 14:24:46] ret[07] 
+[2018/04/24 14:24:46] ret[08] Verifying Line Control ...
+[2018/04/24 14:24:46] ret[09] Line Control Verification Passed
+[2018/04/24 14:24:46] ret[10] 
+[2018/04/24 14:24:46] ret[11] Verifying Loop Back Transmission ...
+[2018/04/24 14:24:46] ret[12] Passing 115200
+[2018/04/24 14:24:46] ret[13] Passing 56000
+[2018/04/24 14:24:46] ret[14] Passing 38400
+[2018/04/24 14:24:46] ret[15] Passing 19200
+[2018/04/24 14:24:46] ret[16] Passing 9600
+[2018/04/24 14:24:46] ret[17] Passing 4800
+[2018/04/24 14:24:46] ret[18] Passing 2400
+[2018/04/24 14:24:46] ret[19] Passing 1200
+[2018/04/24 14:24:46] ret[20] Internal Loop Back Transimission Test Passed
+[2018/04/24 14:24:46] ret[21] (Serial Device Test Results)
+[2018/04/24 14:24:46] ret[22] Status: Pass
+[2018/04/24 14:24:46] Input OS Command: Serial.exe -d:SERIAL:1
+[2018/04/24 14:24:54] ret[00] Serial module x64 factory release 6085.5
+[2018/04/24 14:24:54] ret[01] 
+[2018/04/24 14:24:54] ret[02] (Testing Serial Device)
+[2018/04/24 14:24:54] ret[03] Serial Port Internal Loop Back Test: COM2
+[2018/04/24 14:24:54] ret[04] 
+[2018/04/24 14:24:54] ret[05] Verifying Modem Control ...
+[2018/04/24 14:24:54] ret[06] Modem Control Verification Passed
+[2018/04/24 14:24:54] ret[07] 
+[2018/04/24 14:24:54] ret[08] Verifying Line Control ...
+[2018/04/24 14:24:54] ret[09] Line Control Verification Passed
+[2018/04/24 14:24:54] ret[10] 
+[2018/04/24 14:24:54] ret[11] Verifying Loop Back Transmission ...
+[2018/04/24 14:24:54] ret[12] Passing 115200
+[2018/04/24 14:24:54] ret[13] Passing 56000
+[2018/04/24 14:24:54] ret[14] Passing 38400
+[2018/04/24 14:24:54] ret[15] Passing 19200
+[2018/04/24 14:24:54] ret[16] Passing 9600
+[2018/04/24 14:24:54] ret[17] Passing 4800
+[2018/04/24 14:24:54] ret[18] Passing 2400
+[2018/04/24 14:24:54] ret[19] Passing 1200
+[2018/04/24 14:24:54] ret[20] Internal Loop Back Transimission Test Passed
+[2018/04/24 14:24:54] ret[21] (Serial Device Test Results)
+[2018/04/24 14:24:54] ret[22] Status: Pass
+[2018/04/24 14:24:54] DDIAGS_Serial_Test Pass
+[2018/04/24 14:24:55] Test Item: DDIAGS_Video_Test (DDIAGS_Video_Test)
+[2018/04/24 14:24:55] Input OS Command: Video.exe -f:00
+[2018/04/24 14:25:07] ret[00] VIDEO module x64 factory release 6085.5
+[2018/04/24 14:25:07] ret[01] 
+[2018/04/24 14:25:07] ret[02] (Testing Video Device)
+[2018/04/24 14:25:07] ret[03] (Video Device Test Results)
+[2018/04/24 14:25:07] ret[04] Status: Pass
+[2018/04/24 14:25:07] DDIAGS_Video_Test Pass
+[2018/04/24 14:25:08] Test Item: Check BMC Sensor (Inlet Temperature & CMOS Battery) (Check_BMC_Sensor)
+[2018/04/24 14:25:08] Input OS Command: racadm.exe getsensorinfo
+[2018/04/24 14:25:12] ret[00] 
+[2018/04/24 14:25:12] ret[01] Sensor Type : POWER
+[2018/04/24 14:25:12] ret[02] <Sensor Name>                   <Status>                 <Type>
+[2018/04/24 14:25:12] ret[03] PS1 Status                      Present                  AC
+[2018/04/24 14:25:12] ret[04] PS2 Status                      AC-Lost                  AC
+[2018/04/24 14:25:12] ret[05] 
+[2018/04/24 14:25:12] ret[06] Sensor Type : TEMPERATURE
+[2018/04/24 14:25:12] ret[07] <Sensor Name>            <Status>    <Reading> <lc> <uc>  <lnc>[R/W]  <unc>[R/W]
+[2018/04/24 14:25:12] ret[08] [Key = iDRAC.Embedded.1#CPU1Temp]
+[2018/04/24 14:25:12] ret[09] CPU1 Temp                     Ok      31C      3C   96C      NA [N]      NA [N]
+[2018/04/24 14:25:12] ret[10] 
+[2018/04/24 14:25:12] ret[11] [Key = iDRAC.Embedded.1#SystemBoardInletTemp]
+[2018/04/24 14:25:12] ret[12] System Board Inlet Temp       Ok      25C      -7C  42C      3C [Y]      38C [Y]
+[2018/04/24 14:25:12] ret[13] 
+[2018/04/24 14:25:12] ret[14] [Key = iDRAC.Embedded.1#SystemBoardExhaustTemp]
+[2018/04/24 14:25:12] ret[15] System Board Exhaust Temp     Ok      34C      3C   80C      8C [N]      75C [N]
+[2018/04/24 14:25:12] ret[16] 
+[2018/04/24 14:25:12] ret[17] 
+[2018/04/24 14:25:12] ret[18] 
+[2018/04/24 14:25:12] ret[19] Sensor Type : FAN
+[2018/04/24 14:25:12] ret[20] <Sensor Name>                   <Status>    <Reading>   <lc>        <uc>        <PWM %>
+[2018/04/24 14:25:12] ret[21] System Board Fan1A              Ok          10200RPM    480RPM      NA          67%
+[2018/04/24 14:25:12] ret[22] System Board Fan1B              Ok          12840RPM    480RPM      NA          67%
+[2018/04/24 14:25:12] ret[23] System Board Fan2A              Ok          10320RPM    480RPM      NA          67%
+[2018/04/24 14:25:12] ret[24] System Board Fan2B              Ok          12840RPM    480RPM      NA          67%
+[2018/04/24 14:25:12] ret[25] System Board Fan3A              Ok          10440RPM    480RPM      NA          67%
+[2018/04/24 14:25:12] ret[26] System Board Fan3B              Ok          12840RPM    480RPM      NA          67%
+[2018/04/24 14:25:12] ret[27] System Board Fan4A              Ok          10200RPM    480RPM      NA          67%
+[2018/04/24 14:25:12] ret[28] System Board Fan4B              Ok          13080RPM    480RPM      NA          67%
+[2018/04/24 14:25:12] ret[29] System Board Fan5A              Ok          11280RPM    480RPM      NA          67%
+[2018/04/24 14:25:12] ret[30] System Board Fan5B              Ok          12120RPM    480RPM      NA          67%
+[2018/04/24 14:25:12] ret[31] 
+[2018/04/24 14:25:12] ret[32] Sensor Type : VOLTAGE
+[2018/04/24 14:25:12] ret[33] <Sensor Name>                   <Status>    <Reading>           <lc>        <uc>
+[2018/04/24 14:25:12] ret[34] System Board DIMM PG            Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[35] System Board PS1 PG FAIL        Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[36] System Board PS2 PG FAIL        Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[37] System Board BP1 PG             Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[38] System Board 1.8V SW PG         Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[39] System Board 2.5V SW PG         Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[40] System Board 5V SW PG           Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[41] System Board PVNN SW PG         Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[42] System Board VSB11 SW PG        Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[43] System Board VSBM SW PG         Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[44] System Board 3.3V B PG          Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[45] CPU1 MEM012 VDDQ PG             Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[46] CPU1 MEM012 VPP PG              Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[47] CPU1 MEM012 VTT PG              Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[48] CPU1 MEM345 VDDQ PG             Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[49] CPU1 MEM345 VPP PG              Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[50] CPU1 MEM345 VTT PG              Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[51] CPU1 VCCIO PG                   Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[52] CPU1 VCORE PG                   Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[53] CPU1 FIVR PG                    Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[54] CPU2 VCCIO PG                   Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[55] PS1 Voltage 1                   Ok          218.00V             NA          NA
+[2018/04/24 14:25:12] ret[56] CPU1 VSA PG                     Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[57] CPU2 VSA PG                     Ok          Good                NA          NA
+[2018/04/24 14:25:12] ret[58] 
+[2018/04/24 14:25:12] ret[59] Sensor Type : CURRENT
+[2018/04/24 14:25:12] ret[60] <Sensor Name>            <Status>    <Reading> <lc> <uc>  <lnc>[R/W]  <unc>[R/W]
+[2018/04/24 14:25:12] ret[61] [Key = iDRAC.Embedded.1#PS1Current1]
+[2018/04/24 14:25:12] ret[62] PS1 Current 1                 Ok      0.8Amps  NA   NA       0Amps [N]      0Amps [N]
+[2018/04/24 14:25:12] ret[63] 
+[2018/04/24 14:25:12] ret[64] [Key = iDRAC.Embedded.1#SystemBoardPwrConsumption]
+[2018/04/24 14:25:12] ret[65] System Board Pwr Consumption  Ok      176Watts NA   638Watts 0Watts [N]      594Watts [Y]
+[2018/04/24 14:25:12] ret[66] 
+[2018/04/24 14:25:12] ret[67] 
+[2018/04/24 14:25:12] ret[68] Sensor Type : PROCESSOR
+[2018/04/24 14:25:12] ret[69] <Sensor Name>                   <Status>    <State>             <lc>        <uc>
+[2018/04/24 14:25:12] ret[70] CPU1 Status                     Ok          Presence_Detected   NA          NA
+[2018/04/24 14:25:12] ret[71] CPU2 Status                     N/A         Absent              NA          NA
+[2018/04/24 14:25:12] ret[72] 
+[2018/04/24 14:25:12] ret[73] Sensor Type : MEMORY
+[2018/04/24 14:25:12] ret[74] <Sensor Name>                   <Status>    <State>             <lc>        <uc>
+[2018/04/24 14:25:12] ret[75] DIMM A1                         Ok          Presence_Detected   NA          NA
+[2018/04/24 14:25:12] ret[76] DIMM A2                         Ok          Presence_Detected   NA          NA
+[2018/04/24 14:25:12] ret[77] DIMM A3                         Ok          Presence_Detected   NA          NA
+[2018/04/24 14:25:12] ret[78] DIMM A4                         Ok          Presence_Detected   NA          NA
+[2018/04/24 14:25:12] ret[79] DIMM A5                         Ok          Presence_Detected   NA          NA
+[2018/04/24 14:25:12] ret[80] DIMM A6                         Ok          Presence_Detected   NA          NA
+[2018/04/24 14:25:12] ret[81] DIMM A7                         Ok          Presence_Detected   NA          NA
+[2018/04/24 14:25:12] ret[82] DIMM A8                         Ok          Presence_Detected   NA          NA
+[2018/04/24 14:25:12] ret[83] DIMM A9                         Ok          Presence_Detected   NA          NA
+[2018/04/24 14:25:12] ret[84] DIMM A10                        Ok          Presence_Detected   NA          NA
+[2018/04/24 14:25:12] ret[85] DIMM B1                         N/A         Absent              NA          NA
+[2018/04/24 14:25:12] ret[86] DIMM B2                         N/A         Absent              NA          NA
+[2018/04/24 14:25:12] ret[87] DIMM B3                         N/A         Absent              NA          NA
+[2018/04/24 14:25:12] ret[88] DIMM B4                         N/A         Absent              NA          NA
+[2018/04/24 14:25:12] ret[89] DIMM B5                         N/A         Absent              NA          NA
+[2018/04/24 14:25:12] ret[90] DIMM B6                         N/A         Absent              NA          NA
+[2018/04/24 14:25:12] ret[91] 
+[2018/04/24 14:25:12] ret[92] Sensor Type : BATTERY
+[2018/04/24 14:25:12] ret[93] <Sensor Name>                   <Status>    <Reading>           <lc>        <uc>
+[2018/04/24 14:25:12] ret[94] System Board CMOS Battery       Ok          Present             NA          NA
+[2018/04/24 14:25:12] ret[95] PERC1 ROMB Battery              Ok          Unknown             NA          NA
+[2018/04/24 14:25:12] ret[96] PERC2 ROMB Battery              Ok          Unknown             NA          NA
+[2018/04/24 14:25:12] ret[97] 
+[2018/04/24 14:25:12] ret[98] Sensor Type : PERFORMANCE
+[2018/04/24 14:25:12] ret[99] <Sensor Name>                   <Status>    <State>        <lc>      <uc>
+[2018/04/24 14:25:12] ret[100] System Board Power Optimized    Ok          Not Degraded   NA        NA
+[2018/04/24 14:25:12] ret[101] 
+[2018/04/24 14:25:12] ret[102] Sensor Type : INTRUSION
+[2018/04/24 14:25:12] ret[103] <Sensor Name>                   <Intrusion>    <Status>
+[2018/04/24 14:25:12] ret[104] System Board Intrusion          Open           Power ON
+[2018/04/24 14:25:12] ret[105] 
+[2018/04/24 14:25:12] ret[106] Sensor Type : REDUNDANCY
+[2018/04/24 14:25:12] ret[107] <Sensor Name>                   <Status>                 <Type>
+[2018/04/24 14:25:12] ret[108] System Board Fan Redundancy     Full Redundant           Fan
+[2018/04/24 14:25:12] ret[109] 
+[2018/04/24 14:25:12] ret[110] Sensor Type : IDSDM
+[2018/04/24 14:25:12] ret[111] <Sensor Name>                   <Status>
+[2018/04/24 14:25:12] ret[112] IDSDM SD1                       Good
+[2018/04/24 14:25:12] ret[113] 
+[2018/04/24 14:25:12] ret[114] Sensor Type : SYSTEM PERFORMANCE
+[2018/04/24 14:25:12] ret[115] <Sensor Name>            <Status>    <Reading> <lc> <uc>  <lnc>[R/W]  <unc>[R/W]
+[2018/04/24 14:25:12] ret[116] [Key = iDRAC.Embedded.1#SystemBoardIOUsage]
+[2018/04/24 14:25:12] ret[117] System Board IO Usage    Ok             0%      NA  NA    NA  [N]      101% [Y]
+[2018/04/24 14:25:12] ret[118] 
+[2018/04/24 14:25:12] ret[119] [Key = iDRAC.Embedded.1#SystemBoardMEMUsage]
+[2018/04/24 14:25:12] ret[120] System Board MEM Usage   Ok             0%      NA  NA    NA  [N]      101% [Y]
+[2018/04/24 14:25:12] ret[121] 
+[2018/04/24 14:25:12] ret[122] [Key = iDRAC.Embedded.1#SystemBoardSYSUsage]
+[2018/04/24 14:25:12] ret[123] System Board SYS Usage   Ok             0%      NA  NA    NA  [N]      101% [Y]
+[2018/04/24 14:25:12] ret[124] 
+[2018/04/24 14:25:12] ret[125] [Key = iDRAC.Embedded.1#SystemBoardCPUUsage]
+[2018/04/24 14:25:12] ret[126] System Board CPU Usage   Ok             0%      NA  NA    NA  [N]      101% [Y]
+[2018/04/24 14:25:12] ret[127] 
+[2018/04/24 14:25:12] ret[128] 
+[2018/04/24 14:25:12] ret[129] Sensor Type : REMOVABLE MEDIA
+[2018/04/24 14:25:12] ret[130] <Sensor Name>                   <Status>
+[2018/04/24 14:25:12] ret[131] VFLASH SD                       Present
+[2018/04/24 14:25:12] ret[132] 
+[2018/04/24 14:25:12] Check_BMC_Sensor Pass
+[2018/04/24 14:25:13] Test Item: Check TPM Device (Check_TPM_Device)
+[2018/04/24 14:25:13] Input OS Command: racadm.exe get bios.syssecurity
+[2018/04/24 14:25:17] ret[00] [Key=BIOS.Setup.1-1#syssecurity]
+[2018/04/24 14:25:17] ret[01] AcPwrRcvry=Last
+[2018/04/24 14:25:17] ret[02] AcPwrRcvryDelay=Immediate
+[2018/04/24 14:25:17] ret[03] #AcPwrRcvryUserDelay=0
+[2018/04/24 14:25:17] ret[04] #AesNi=Enabled
+[2018/04/24 14:25:17] ret[05] #AuthorizeDeviceFirmware=Disabled
+[2018/04/24 14:25:17] ret[06] InBandManageabilityInterface=Enabled
+[2018/04/24 14:25:17] ret[07] #IntelTxt=Off
+[2018/04/24 14:25:17] ret[08] PasswordStatus=Unlocked
+[2018/04/24 14:25:17] ret[09] PwrButton=Enabled
+[2018/04/24 14:25:17] ret[10] #SHA256SetupPassword=
+[2018/04/24 14:25:17] ret[11] #SHA256SetupPasswordSalt=
+[2018/04/24 14:25:17] ret[12] #SHA256SystemPassword=
+[2018/04/24 14:25:17] ret[13] #SHA256SystemPasswordSalt=
+[2018/04/24 14:25:17] ret[14] SecureBoot=Disabled
+[2018/04/24 14:25:17] ret[15] SecureBootMode=DeployedMode
+[2018/04/24 14:25:17] ret[16] SecureBootPolicy=Standard
+[2018/04/24 14:25:17] ret[17] !!SetupPassword=******** (Write-Only)
+[2018/04/24 14:25:17] ret[18] !!SysPassword=******** (Write-Only)
+[2018/04/24 14:25:17] ret[19] #Tpm2Hierarchy=
+[2018/04/24 14:25:17] ret[20] #TpmFirmware=
+[2018/04/24 14:25:17] ret[21] #TpmInfo=Type: 2.0-NTC
+[2018/04/24 14:25:17] ret[22] TpmSecurity=Off
+[2018/04/24 14:25:17] ret[23] UefiVariableAccess=Standard
+[2018/04/24 14:25:17] ret[24] 
+[2018/04/24 14:25:17] Check_TPM_Device Pass
+[2018/04/24 14:25:18] Test Item: Clear BMC SEL via ipmitool (Clear_BMC_SEL)
+[2018/04/24 14:25:18] Input OS Command: ipmitool.exe -I wmi sel clear
+[2018/04/24 14:25:20] ret[00] Clearing SEL.  Please allow a few seconds to erase.
+[2018/04/24 14:25:20] Input OS Command: ipmitool.exe -I wmi sel
+[2018/04/24 14:25:22] ret[00] SEL Information
+[2018/04/24 14:25:22] ret[01] Version          : 1.5 (v1.5, v2 compliant)
+[2018/04/24 14:25:22] ret[02] Entries          : 1
+[2018/04/24 14:25:22] ret[03] Free Space       : 16368 bytes
+[2018/04/24 14:25:22] ret[04] Percent Used     : 0%
+[2018/04/24 14:25:22] ret[05] Last Add Time    : 04/24/2018 14:25:17
+[2018/04/24 14:25:22] ret[06] Last Del Time    : 04/24/2018 14:25:17
+[2018/04/24 14:25:22] ret[07] Overflow         : false
+[2018/04/24 14:25:22] ret[08] Supported Cmds   : 'Reserve'
+[2018/04/24 14:25:22] Clear_BMC_SEL Pass
+[2018/04/24 14:25:23] Test Item: Set Asset Tag to PASS:12345 via racadm (Set_AssetTag)
+[2018/04/24 14:25:23] Input OS Command: python.exe Medusa\medusa.py -d BIOS.Setup.1-1 -s AssetTag=PASS:12345 -k > .\temp.dat
+[2018/04/24 14:25:27] Input OS Command: find "AssetTag=PASS:12345" .\temp.dat
+[2018/04/24 14:25:30] ret[00] 
+[2018/04/24 14:25:30] ret[01] ---------- .\TEMP.DAT
+[2018/04/24 14:25:30] ret[02] Set Attribute: AssetTag=PASS:12345
+[2018/04/24 14:25:30] ret[03] AssetTag=PASS:12345
+[2018/04/24 14:25:30] Asset has been SET PASS
+[2018/04/24 14:25:30] Input OS Command: python.exe Medusa\medusa.py -d BIOS.InternalSetup.1-1 -s ServiceTag= -k > .\temp.dat
+[2018/04/24 14:25:32] Input OS Command: find "Set Attribute: ServiceTag=" .\temp.dat
+[2018/04/24 14:25:34] ret[00] 
+[2018/04/24 14:25:34] ret[01] ---------- .\TEMP.DAT
+[2018/04/24 14:25:34] ret[02] Set Attribute: ServiceTag=
+[2018/04/24 14:25:34] Service Tag has been Deleted PASS
+[2018/04/24 14:25:34] Set_AssetTag Pass
+[2018/04/24 14:25:35] Check_BMC_MAC -------------------------------------[PASS]
+[2018/04/24 14:25:35] Check_Ethernet_MAC --------------------------------[PASS]
+[2018/04/24 14:25:35] Check_Ethernet_Link -------------------------------[PASS]
+[2018/04/24 14:25:35] Check_Intrusion_Device ----------------------------[PASS]
+[2018/04/24 14:25:35] Check_Fan_Device ----------------------------------[PASS]
+[2018/04/24 14:25:35] Check_FW_Version ----------------------------------[PASS]
+[2018/04/24 14:25:35] Check_SMBIOS_Info ---------------------------------[PASS]
+[2018/04/24 14:25:35] Program_MB_FRU ------------------------------------[PASS]
+[2018/04/24 14:25:35] Check_CPU_Info ------------------------------------[PASS]
+[2018/04/24 14:25:35] Check_Cache_Info ----------------------------------[PASS]
+[2018/04/24 14:25:35] DDIAGS_Memory_Test --------------------------------[PASS]
+[2018/04/24 14:25:35] DDIAGS_PCIe_Test ----------------------------------[PASS]
+[2018/04/24 14:25:35] Check_PCIe_Info_X8 --------------------------------[PASS]
+[2018/04/24 14:25:35] Check_PCIe_Info_X16 -------------------------------[PASS]
+[2018/04/24 14:25:35] Check_PCH_Version ---------------------------------[PASS]
+[2018/04/24 14:25:35] Check_HDD_Presence --------------------------------[PASS]
+[2018/04/24 14:25:35] Check_HDD_Info ------------------------------------[PASS]
+[2018/04/24 14:25:35] DDIAGS_Disk_Test ----------------------------------[PASS]
+[2018/04/24 14:25:35] Check_USB_Device ----------------------------------[PASS]
+[2018/04/24 14:25:35] Check_USB3_Device ---------------------------------[PASS]
+[2018/04/24 14:25:35] Check_Serial_Info ---------------------------------[PASS]
+[2018/04/24 14:25:35] DDIAGS_Serial_Test --------------------------------[PASS]
+[2018/04/24 14:25:35] DDIAGS_Video_Test ---------------------------------[PASS]
+[2018/04/24 14:25:35] Check_BMC_Sensor ----------------------------------[PASS]
+[2018/04/24 14:25:35] Check_TPM_Device ----------------------------------[PASS]
+[2018/04/24 14:25:35] Clear_BMC_SEL -------------------------------------[PASS]
+[2018/04/24 14:25:35] Set_AssetTag --------------------------------------[PASS]
+[2018/04/24 14:25:35] PASS
